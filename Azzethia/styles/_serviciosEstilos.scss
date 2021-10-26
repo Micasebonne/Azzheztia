@@ -1,0 +1,120 @@
+h2{
+    font-family: $fuente;
+    color: $colorTexto;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.contenedor{
+    background-color: #F1F3F8;
+    width: 1350px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+
+    .infoServicios{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        margin-right: 5%;
+        padding-top: 8%;
+
+        .cardServicios{
+            width: 25%;
+
+            .infoCard{
+                background-color: $colorPrincipal;
+                width: 400px;
+                height: 500px;
+                border-radius: 20px;
+
+                h3{
+                    font-family: $fuente;
+                    color: white;
+                    font-size: 48px;
+                    font-weight: lighter;
+                    text-align: center;
+                    padding-top: 5%;
+                }
+
+                .inicioDescripción{
+                    font-family: $fuente;
+                    color: white;
+                    font-size: 20px;
+                    text-align: center;
+                    padding-left: 5%;
+                    padding-right: 5%;
+                }
+
+                p{
+                    font-family: $fuente;
+                    font-weight: lighter;
+                    color: white;
+                    font-size: 18px;
+                    text-align:justify;
+                    padding-top: 4%;
+                    padding-left: 4%;
+                    padding-right: 4%;
+                }
+            }
+            .footerCard{
+                background-color: white;
+                border-radius: 15px;
+                width: 400px;
+                height: 60px;
+                margin-top: -18%;
+                box-shadow: 5px 10px 18px #888888;
+
+                .precioServicios{
+                    font-family: $fuente;
+                    color: $colorSecundario;
+                    font-size: 30px;
+                    font-weight: 400;
+                    text-align: center;
+                    padding-top: 2%;
+                }
+            }
+        }
+    }
+
+    .servicioSection{
+        display: flex;
+        flex-direction: row;
+
+        .servicio1{
+            background-color: white;
+            width: 900px;
+            height: 220px;
+            border-radius: 65px;
+            margin-left: 5%;
+        
+            h4{
+                color: $colorPrincipal;
+                font-family: $fuente;
+                font-size: 30px;
+                font-weight: 500;
+                padding-left: 5%;
+                padding-top: 3%;
+                margin-top: 0%;
+                margin-bottom: 0%;
+            }
+
+            p{
+                font-family: $fuente;
+                font-size: 18px;
+                margin-bottom: 0px;
+                padding-left: 5%;
+            }
+
+            ul{
+                padding-left: 15%;
+                margin-top: 0px;
+
+                li{
+                    font-family: $fuente;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

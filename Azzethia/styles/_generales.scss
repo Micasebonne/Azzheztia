@@ -1,0 +1,57 @@
+/* MENÚ PRINCIPAL */
+
+$fuente: 'Poppins', sans-serif;
+$colorPrincipal: #00A3CC;
+$colorSecundario: #FF8500;
+$colorTexto: #373F41;
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 3%;
+
+    .logo{
+        display: flex;
+        flex-direction: row;
+        margin-left: 5%;
+
+        h1{
+            font-family: $fuente;
+            font-weight:bolder;
+            color: $colorPrincipal;
+            margin-left: 10%;
+        }
+    }
+
+    .navPrincipal{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 75px;
+        width: 700px;
+        box-shadow: 5px 10px 18px #888888;
+        border-end-end-radius: 40px;
+        border-end-start-radius: 40px;
+        border-start-start-radius: 40px;
+        border-start-end-radius: 40px;
+
+            .ulPrincipal{
+                padding: 0px 0px;
+                
+                .aPrincipal{
+                    color: black;
+                    text-decoration: none;
+                    font-family: $fuente;
+                    font-size: 17px;
+                    font-weight: 500;
+                }
+
+                .aPrincipal:hover{
+                    color: $colorPrincipal;
+                }
+            }
+    }
+}
