@@ -1,0 +1,91 @@
+footer {
+    display: grid;
+    grid-template-columns: 1fr 30% 1fr;
+    width: 1340px;
+    height: 560px;
+    background-color: $colorPrincipal;
+    margin-top: 3683px;
+
+        .div-footer1 {
+            display: grid;
+            align-content: center;
+            justify-content: start;
+            justify-items: stretch;
+
+                h2 {
+                    text-align: left;
+                    color: #FFFFFF;
+                    font-weight: 600;
+                    font-size: 30px;
+                    margin-left: 55px;
+                }
+                    p {
+                        color: #FFFFFF;
+                        margin-top: 18px;
+                        font-weight: 500px;
+                        font-size: 26px;
+                        margin-left: 55px;
+                    }
+                        ul {
+                            list-style-type: none;
+                            font-weight: 300px;
+                            font-size: 18px;
+                        }
+                            li {
+                                margin: 18px;
+                            }
+            
+        }
+                    
+        .div-footer2 {
+            display: grid;
+            align-content: center;
+            justify-content: space-evenly;
+            justify-items: center;
+            margin-top: -140px;
+
+                h3 {
+                color: #FFFFFF;
+                font-weight: 400;
+                font-size: 30px;
+            }
+        }   
+    
+        .div-footer3 {
+            display: grid;
+            align-items: center;
+            justify-content: end;
+            align-content: center;
+            margin-top: -250px;
+        
+                h3 {
+                    color: #FFFFFF;
+                    font-weight: 400;
+                    font-size: 30px;
+                    margin-right: 48px;
+                }
+
+                .div-redes {
+                    margin-top: -40px;
+                
+                    ul {
+                        display: flex;
+                        justify-content: flex-end;
+                        list-style-type: none;
+
+                        li {
+                            font-size: 35px;
+
+                            .fa-instagram {
+                            margin-right: 27px;
+                            color: #FFFFFF;
+                        }
+
+                        .fa-facebook-square {
+                            margin-right: 71px;
+                            color: #FFFFFF;
+                        }
+                    }
+                } 
+        }}
+}
