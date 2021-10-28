@@ -1,0 +1,72 @@
+//Estilos index
+.index-inicio {
+    display: flex; 
+        
+        h2{
+            font-size: 50px;
+            font-weight: 500px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+            p {
+                font-size: 20px;
+                font-weight: 400px;
+                text-align: center;
+                margin-bottom: 20px;
+                color: #737B7D;
+            }
+    
+                img {
+                    display: flex;
+                    width: 720px;
+                    height: 810px;
+                }  
+}
+
+.img {
+    z-index: 1;
+    margin-top: -130px;
+    margin-right: 0px;
+}
+
+.menu {
+    z-index: 2;
+}
+
+.contenedor-index-titulo {
+    display: grid;
+    align-content: center;
+    margin-top: -250px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0 auto;
+    
+        .boton1 {
+            background-color: #00A3CC80;
+            border-color: #00A3CC80;
+            border-radius: 25px;
+            width: 180px;
+            height: 52px;
+        }
+
+        .boton2 {
+            background-color: $colorPrincipal;
+            border-color: $colorPrincipal;
+            border-radius: 25px;
+            width: 180px;  
+            height: 52px;            
+        }
+            a {
+                font-size: 16px;
+                font-weight: 500px;
+                text-transform: uppercase;
+                text-decoration: none;
+                color: #ffffff;
+                text-align: center;
+            }
+}

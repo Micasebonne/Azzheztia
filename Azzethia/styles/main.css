@@ -26,7 +26,8 @@ header {
     border-end-end-radius: 40px;
     border-end-start-radius: 40px;
     border-start-start-radius: 40px;
-    border-start-end-radius: 40px; }
+    border-start-end-radius: 40px;
+    background-color: #ffffff; }
     header .navPrincipal .ulPrincipal {
       padding: 0px 0px; }
       header .navPrincipal .ulPrincipal .aPrincipal {
@@ -40,6 +41,10 @@ header {
 
 body {
   font-family: "Poppins", sans-serif; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
 
 h2 {
   font-family: "Poppins", sans-serif;
@@ -198,3 +203,60 @@ footer {
           footer .div-footer3 .div-redes ul li .fa-facebook-square {
             margin-right: 71px;
             color: #FFFFFF; }
+
+.index-inicio {
+  display: flex; }
+  .index-inicio h2 {
+    font-size: 50px;
+    font-weight: 500px;
+    text-align: center;
+    margin-bottom: 40px; }
+  .index-inicio p {
+    font-size: 20px;
+    font-weight: 400px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #737B7D; }
+  .index-inicio img {
+    display: flex;
+    width: 720px;
+    height: 810px; }
+
+.img {
+  z-index: 1;
+  margin-top: -130px;
+  margin-right: 0px; }
+
+.menu {
+  z-index: 2; }
+
+.contenedor-index-titulo {
+  display: grid;
+  align-content: center;
+  margin-top: -250px; }
+
+.botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: 0 auto; }
+  .botones .boton1 {
+    background-color: #00A3CC80;
+    border-color: #00A3CC80;
+    border-radius: 25px;
+    width: 180px;
+    height: 52px; }
+  .botones .boton2 {
+    background-color: #00A3CC;
+    border-color: #00A3CC;
+    border-radius: 25px;
+    width: 180px;
+    height: 52px; }
+  .botones a {
+    font-size: 16px;
+    font-weight: 500px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center; }
