@@ -174,7 +174,7 @@ footer {
     justify-content: space-evenly;
     justify-items: center;
     margin-top: -140px; }
-    footer .div-footer2 h3 {
+    footer .div-footer2 h4 {
       color: #FFFFFF;
       font-weight: 400;
       font-size: 30px; }
@@ -184,7 +184,7 @@ footer {
     justify-content: end;
     align-content: center;
     margin-top: -250px; }
-    footer .div-footer3 h3 {
+    footer .div-footer3 h4 {
       color: #FFFFFF;
       font-weight: 400;
       font-size: 30px;
@@ -204,59 +204,107 @@ footer {
             margin-right: 71px;
             color: #FFFFFF; }
 
-.index-inicio {
+.indexMain {
   display: flex; }
-  .index-inicio h2 {
+  .indexMain h2 {
     font-size: 50px;
     font-weight: 500px;
     text-align: center;
     margin-bottom: 40px; }
-  .index-inicio p {
+  .indexMain p {
     font-size: 20px;
     font-weight: 400px;
     text-align: center;
     margin-bottom: 20px;
-    color: #737B7D; }
-  .index-inicio img {
+    color: #082830; }
+  .indexMain img {
     display: flex;
     width: 720px;
     height: 810px; }
 
-.img {
+.imgIndexPrincipal {
   z-index: 1;
   margin-top: -130px;
   margin-right: 0px; }
 
-.menu {
+.menuIndex {
   z-index: 2; }
 
-.contenedor-index-titulo {
+.contenedorIndexTitulo {
   display: grid;
   align-content: center;
   margin-top: -250px; }
 
-.botones {
+.botonesIndex {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   width: 90%;
   margin: 0 auto; }
-  .botones .boton1 {
+  .botonesIndex .boton1 {
     background-color: #00A3CC80;
     border-color: #00A3CC80;
     border-radius: 25px;
     width: 180px;
     height: 52px; }
-  .botones .boton2 {
+  .botonesIndex .boton2 {
     background-color: #00A3CC;
     border-color: #00A3CC;
     border-radius: 25px;
     width: 180px;
     height: 52px; }
-  .botones a {
+  .botonesIndex a {
     font-size: 16px;
     font-weight: 500px;
     text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;
     text-align: center; }
+
+.contenedorIndexPrimeraSeccion {
+  margin-top: 60px;
+  background-color: #F1F3F8;
+  width: 1348px;
+  height: 1800px;
+  border-radius: 50%/100px 100px 0 0;
+  position: relative; }
+
+.cardsIndex {
+  display: grid;
+  justify-items: stretch;
+  align-items: center;
+  align-content: center;
+  background-color: #ffffff;
+  width: 970px;
+  height: 347px;
+  border-radius: 25px;
+  position: absolute; }
+  .cardsIndex .imgIndexCards {
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 30px; }
+    .cardsIndex .imgIndexCards img {
+      width: 430px;
+      height: 460px;
+      border-radius: 25px;
+      margin-bottom: -20px; }
+
+.cardIndex1 {
+  justify-content: end;
+  margin-left: 40px;
+  margin-top: 150px; }
+
+.cardIndex2 {
+  justify-content: start;
+  margin-left: 350px;
+  margin-top: 750px; }
+  .cardIndex2 img {
+    margin-left: 480px; }
+
+.cardIndex3 {
+  justify-content: end;
+  margin-left: 40px;
+  margin-top: 1300px; }
+
+.textoIndexCard {
+  margin: 70px; }
