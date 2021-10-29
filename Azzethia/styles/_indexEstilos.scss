@@ -131,3 +131,194 @@
 .textoIndexCard {
     margin: 70px;
 }
+
+//Estilos index segunda sección
+.segundaSeccionIndex {
+    margin-top: 150px;
+        h4 {
+            color: #000;
+            text-align: center;
+            font-size: 48px;
+            margin-bottom: 150px;
+        }
+            span {
+                color: $colorSecundario
+            }
+}
+
+.contenedorFuncionamiento {
+    position: relative;
+    margin-top: 150%;
+    width: 1123px;
+    height: 337px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.miniCardBusca {
+    display: flex;
+    position: absolute;
+    width: 182px;
+    height: 337px;
+
+        .circuloCard {
+            position: absolute;
+            background-color: $colorPrincipal;
+            width: 117px;
+            height: 117px;
+            border-radius: 50%;
+            margin-left: 30px;
+            margin-top: 20px;
+
+                img {
+                    position: absolute;
+                    margin: 25px;
+                }
+        }    
+
+                hr {
+                    background-color: $colorPrincipal;
+                    height: 2.5px;
+                    width: 890%;
+                    position: absolute;
+                    margin-top: 50px;
+                    margin-left: 115px;
+                }
+
+                .textoCard {
+                    margin-top: 150px; 
+                        
+                        h5 {
+                        font-size: 36px;
+                        color: #000;
+                        text-align: center;
+                        }
+        
+                            p {
+                                font-size: 18px;
+                                color: #1E1B1B;
+                                text-align: center;
+                            }
+                    }
+    }            
+
+
+
+.miniCardAgenda {
+    display: flex;
+    position: absolute;
+    width: 182px;
+    height: 337px;
+    margin-left: 350px;
+
+    .circuloCard {
+        position: absolute;
+        background-color: $colorPrincipal;
+        width: 117px;
+        height: 117px;
+        border-radius: 50%;
+        margin-left: 30px;
+        margin-top: 20px;
+
+            img {
+                position: absolute;
+                margin: 25px;
+            }
+    }
+
+    .textoCard {
+        margin-top: 150px; 
+            
+            h5 {
+            font-size: 36px;
+            color: #000;
+            text-align: center;
+            }
+
+                p {
+                    font-size: 18px;
+                    color: #1E1B1B;
+                    text-align: center;
+                }
+        }
+}    
+
+.miniCardPaga {
+    display: flex;
+    position: absolute;
+    width: 182px;
+    height: 337px;
+    margin-left: 700px;
+
+    .circuloCard {
+        position: absolute;
+        background-color: $colorPrincipal;
+        width: 117px;
+        height: 117px;
+        border-radius: 50%;
+        margin-left: 30px;
+        margin-top: 20px;
+    
+            img {
+                position: absolute;
+                margin: 32px;
+            }
+        }    
+    
+    
+            .textoCard {
+                margin-top: 150px; 
+                    
+                    h5 {
+                    font-size: 36px;
+                    color: #000;
+                    text-align: center;
+                    }
+    
+                        p {
+                            font-size: 18px;
+                            color: #1E1B1B;
+                            text-align: center;
+                        }
+                }
+}    
+
+.miniCardDescansa {
+    display: flex;
+    position: absolute;
+    width: 182px;
+    height: 337px;
+    margin-left: 1050px;
+
+    .circuloCard {
+        position: absolute;
+        background-color: $colorPrincipal;
+        width: 117px;
+        height: 117px;
+        border-radius: 50%;
+        margin-left: 30px;
+        margin-top: 20px;
+        
+            img {
+                position: absolute;
+                margin: 35px;
+            }
+    }
+
+            .textoCard {
+            margin-top: 150px; 
+                
+                h5 {
+                text-align: center;
+                font-size: 36px;
+                color: #000;
+                }
+
+                    p {
+                        font-size: 18px;
+                        color: #1E1B1B;
+                        text-align: center;
+                    }
+            }
+
+}

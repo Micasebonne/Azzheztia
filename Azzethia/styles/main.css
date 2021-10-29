@@ -144,7 +144,7 @@ footer {
   width: 1340px;
   height: 560px;
   background-color: #00A3CC;
-  margin-top: 3683px; }
+  margin-top: 200px; }
   footer .divFooter1 {
     display: grid;
     align-content: center;
@@ -311,3 +311,139 @@ footer {
 
 .textoIndexCard {
   margin: 70px; }
+
+.segundaSeccionIndex {
+  margin-top: 150px; }
+  .segundaSeccionIndex h4 {
+    color: #000;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 150px; }
+  .segundaSeccionIndex span {
+    color: #FF8500; }
+
+.contenedorFuncionamiento {
+  position: relative;
+  margin-top: 150%;
+  width: 1123px;
+  height: 337px;
+  width: 90%;
+  margin: 0 auto; }
+
+.miniCardBusca {
+  display: flex;
+  position: absolute;
+  width: 182px;
+  height: 337px; }
+  .miniCardBusca .circuloCard {
+    position: absolute;
+    background-color: #00A3CC;
+    width: 117px;
+    height: 117px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 20px; }
+    .miniCardBusca .circuloCard img {
+      position: absolute;
+      margin: 25px; }
+  .miniCardBusca hr {
+    background-color: #00A3CC;
+    height: 2.5px;
+    width: 890%;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 115px; }
+  .miniCardBusca .textoCard {
+    margin-top: 150px; }
+    .miniCardBusca .textoCard h5 {
+      font-size: 36px;
+      color: #000;
+      text-align: center; }
+    .miniCardBusca .textoCard p {
+      font-size: 18px;
+      color: #1E1B1B;
+      text-align: center; }
+
+.miniCardAgenda {
+  display: flex;
+  position: absolute;
+  width: 182px;
+  height: 337px;
+  margin-left: 350px; }
+  .miniCardAgenda .circuloCard {
+    position: absolute;
+    background-color: #00A3CC;
+    width: 117px;
+    height: 117px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 20px; }
+    .miniCardAgenda .circuloCard img {
+      position: absolute;
+      margin: 25px; }
+  .miniCardAgenda .textoCard {
+    margin-top: 150px; }
+    .miniCardAgenda .textoCard h5 {
+      font-size: 36px;
+      color: #000;
+      text-align: center; }
+    .miniCardAgenda .textoCard p {
+      font-size: 18px;
+      color: #1E1B1B;
+      text-align: center; }
+
+.miniCardPaga {
+  display: flex;
+  position: absolute;
+  width: 182px;
+  height: 337px;
+  margin-left: 700px; }
+  .miniCardPaga .circuloCard {
+    position: absolute;
+    background-color: #00A3CC;
+    width: 117px;
+    height: 117px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 20px; }
+    .miniCardPaga .circuloCard img {
+      position: absolute;
+      margin: 32px; }
+  .miniCardPaga .textoCard {
+    margin-top: 150px; }
+    .miniCardPaga .textoCard h5 {
+      font-size: 36px;
+      color: #000;
+      text-align: center; }
+    .miniCardPaga .textoCard p {
+      font-size: 18px;
+      color: #1E1B1B;
+      text-align: center; }
+
+.miniCardDescansa {
+  display: flex;
+  position: absolute;
+  width: 182px;
+  height: 337px;
+  margin-left: 1050px; }
+  .miniCardDescansa .circuloCard {
+    position: absolute;
+    background-color: #00A3CC;
+    width: 117px;
+    height: 117px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 20px; }
+    .miniCardDescansa .circuloCard img {
+      position: absolute;
+      margin: 35px; }
+  .miniCardDescansa .textoCard {
+    margin-top: 150px; }
+    .miniCardDescansa .textoCard h5 {
+      text-align: center;
+      font-size: 36px;
+      color: #000; }
+    .miniCardDescansa .textoCard p {
+      font-size: 18px;
+      color: #1E1B1B;
+      text-align: center; }
