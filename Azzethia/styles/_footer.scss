@@ -6,7 +6,7 @@ footer {
     background-color: $colorPrincipal;
     margin-top: 3683px;
 
-        .div-footer1 {
+        .divFooter1 {
             display: grid;
             align-content: center;
             justify-content: start;
@@ -14,78 +14,76 @@ footer {
 
                 h2 {
                     text-align: left;
-                    color: #FFFFFF;
+                    color: $colorBlanco;
                     font-weight: 600;
                     font-size: 30px;
                     margin-left: 55px;
                 }
                     p {
-                        color: #FFFFFF;
+                        color: $colorBlanco;
                         margin-top: 18px;
                         font-weight: 500px;
                         font-size: 26px;
                         margin-left: 55px;
+                        margin-bottom: 20px;
                     }
                         ul {
                             list-style-type: none;
                             font-weight: 300px;
                             font-size: 18px;
+                            margin-left: 38px;
                         }
                             li {
                                 margin: 18px;
                             }
+                                a {
+                                    text-decoration: none;
+                                    color: #333333;
+                                }
             
         }
                     
-        .div-footer2 {
+        .divFooter2 {
             display: grid;
             align-content: center;
             justify-content: space-evenly;
             justify-items: center;
-            margin-top: -140px;
+            margin-top: -110px;
 
                 h4 {
-                color: #FFFFFF;
+                color: $colorBlanco;
                 font-weight: 400;
                 font-size: 30px;
+                margin-bottom: 20px;
             }
         }   
     
-        .div-footer3 {
+        .divFooter3 {
             display: grid;
             align-items: center;
             justify-content: end;
             align-content: center;
-            margin-top: -250px;
+            margin-top: -200px;
+            margin-right: 35px;
         
                 h4 {
-                    color: #FFFFFF;
+                    color: $colorBlanco;
                     font-weight: 400;
                     font-size: 30px;
-                    margin-right: 48px;
+                    margin-bottom: 10px;
                 }
 
-                .div-redes {
-                    margin-top: -40px;
-                
-                    ul {
+                    .redes {
+                        list-style: none;
                         display: flex;
-                        justify-content: flex-end;
-                        list-style-type: none;
-
-                        li {
-                            font-size: 35px;
-
-                            .fa-instagram {
-                            margin-right: 27px;
-                            color: #FFFFFF;
-                        }
-
-                        .fa-facebook-square {
-                            margin-right: 71px;
-                            color: #FFFFFF;
-                        }
+                        flex-direction: row;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        margin-left: 15px;
                     }
-                } 
-        }}
+        }
+} 
+
+.logoAppStore {
+    margin-bottom: 10px;
 }

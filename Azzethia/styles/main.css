@@ -145,64 +145,67 @@ footer {
   height: 560px;
   background-color: #00A3CC;
   margin-top: 3683px; }
-  footer .div-footer1 {
+  footer .divFooter1 {
     display: grid;
     align-content: center;
     justify-content: start;
     justify-items: stretch; }
-    footer .div-footer1 h2 {
+    footer .divFooter1 h2 {
       text-align: left;
-      color: #FFFFFF;
+      color: #ffffff;
       font-weight: 600;
       font-size: 30px;
       margin-left: 55px; }
-    footer .div-footer1 p {
-      color: #FFFFFF;
+    footer .divFooter1 p {
+      color: #ffffff;
       margin-top: 18px;
       font-weight: 500px;
       font-size: 26px;
-      margin-left: 55px; }
-    footer .div-footer1 ul {
+      margin-left: 55px;
+      margin-bottom: 20px; }
+    footer .divFooter1 ul {
       list-style-type: none;
       font-weight: 300px;
-      font-size: 18px; }
-    footer .div-footer1 li {
+      font-size: 18px;
+      margin-left: 38px; }
+    footer .divFooter1 li {
       margin: 18px; }
-  footer .div-footer2 {
+    footer .divFooter1 a {
+      text-decoration: none;
+      color: #333333; }
+  footer .divFooter2 {
     display: grid;
     align-content: center;
     justify-content: space-evenly;
     justify-items: center;
-    margin-top: -140px; }
-    footer .div-footer2 h4 {
-      color: #FFFFFF;
+    margin-top: -110px; }
+    footer .divFooter2 h4 {
+      color: #ffffff;
       font-weight: 400;
-      font-size: 30px; }
-  footer .div-footer3 {
+      font-size: 30px;
+      margin-bottom: 20px; }
+  footer .divFooter3 {
     display: grid;
     align-items: center;
     justify-content: end;
     align-content: center;
-    margin-top: -250px; }
-    footer .div-footer3 h4 {
-      color: #FFFFFF;
+    margin-top: -200px;
+    margin-right: 35px; }
+    footer .divFooter3 h4 {
+      color: #ffffff;
       font-weight: 400;
       font-size: 30px;
-      margin-right: 48px; }
-    footer .div-footer3 .div-redes {
-      margin-top: -40px; }
-      footer .div-footer3 .div-redes ul {
-        display: flex;
-        justify-content: flex-end;
-        list-style-type: none; }
-        footer .div-footer3 .div-redes ul li {
-          font-size: 35px; }
-          footer .div-footer3 .div-redes ul li .fa-instagram {
-            margin-right: 27px;
-            color: #FFFFFF; }
-          footer .div-footer3 .div-redes ul li .fa-facebook-square {
-            margin-right: 71px;
-            color: #FFFFFF; }
+      margin-bottom: 10px; }
+    footer .divFooter3 .redes {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-left: 15px; }
+
+.logoAppStore {
+  margin-bottom: 10px; }
 
 .indexMain {
   display: flex; }
