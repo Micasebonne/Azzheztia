@@ -9,8 +9,7 @@ h2{
 .contenedor{
     background-color: #F1F3F8;
     width: 1350px;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
+    border-radius: 50%/100px 100px 0 0;
 
     .infoServicios{
         display: flex;
@@ -78,43 +77,151 @@ h2{
     }
 
     .servicioSection{
-        display: flex;
-        flex-direction: row;
-
         .servicio1{
             background-color: white;
             width: 900px;
             height: 220px;
             border-radius: 65px;
             margin-left: 5%;
-        
-            h4{
-                color: $colorPrincipal;
-                font-family: $fuente;
-                font-size: 30px;
-                font-weight: 500;
-                padding-left: 5%;
-                padding-top: 3%;
-                margin-top: 0%;
-                margin-bottom: 0%;
-            }
+            margin-bottom: 8%;
 
-            p{
-                font-family: $fuente;
-                font-size: 18px;
-                margin-bottom: 0px;
-                padding-left: 5%;
-            }
+                h4{
+                    color: $colorPrincipal;
+                    font-family: $fuente;
+                    font-size: 30px;
+                    font-weight: 500;
+                    padding-left: 5%;
+                    padding-top: 3%;
+                    margin-top: 0%;
+                    margin-bottom: 0%;
+                }
 
-            ul{
-                padding-left: 15%;
-                margin-top: 0px;
-
-                li{
+                p{
                     font-family: $fuente;
                     font-size: 18px;
+                    margin-bottom: 0px;
+                    padding-left: 5%;
                 }
-            }
+
+                ul{
+                    padding-left: 15%;
+                    margin-top: 0px;
+
+                    li{
+                        font-family: $fuente;
+                        font-size: 18px;
+                    }
+                }
         }
-    }
+
+        .aspiradora{
+            position:absolute; 
+            left:0px;
+            top:0px;
+            z-index: 2;
+            margin-top: 89%;
+            margin-left: 60%;
+        }
+
+        .barrer{
+            position:absolute; 
+            left:0px;
+            top:0px;
+            z-index: 2;
+            margin-top: 137%;
+            margin-left: 60%;
+        }
+
+        .divServicios{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            .limpiaVidrios{
+                height: 400px;
+                width: 505px;
+            }
+
+            .servicio2{
+                background-color: white;
+                width: 900px;
+                height: 220px;
+                border-radius: 65px;
+                margin-left: 0%;
+                
+                    h4{
+                        color: $colorPrincipal;
+                        font-family: $fuente;
+                        font-size: 30px;
+                        font-weight: 500;
+                        padding-left: 5%;
+                        padding-top: 3%;
+                        margin-top: 0%;
+                        margin-bottom: 0%;
+                    }
+        
+                    p{
+                        font-family: $fuente;
+                        font-size: 18px;
+                        margin-bottom: 0px;
+                        padding-left: 5%;
+                    }
+        
+                    ul{
+                        padding-left: 15%;
+                        margin-top: 0px;
+        
+                        li{
+                            font-family: $fuente;
+                            font-size: 18px;
+                        }
+                    }
+            }   
+        }
+
+        .divServicios2{
+            display: flex;
+            justify-content: end;
+            margin-top: 15%;
+            padding-bottom: 15%;
+
+            .servicio2{
+                background-color: white;
+                width: 900px;
+                height: 220px;
+                border-radius: 65px;
+                margin-left: 0%;
+                
+                    h4{
+                        color: $colorPrincipal;
+                        font-family: $fuente;
+                        font-size: 30px;
+                        font-weight: 500;
+                        padding-left: 5%;
+                        padding-top: 3%;
+                        margin-top: 0%;
+                        margin-bottom: 0%;
+                    }
+        
+                    p{
+                        font-family: $fuente;
+                        font-size: 18px;
+                        margin-bottom: 0px;
+                        padding-left: 5%;
+                    }
+        
+                    ul{
+                        padding-left: 15%;
+                        margin-top: 0px;
+        
+                        li{
+                            font-family: $fuente;
+                            font-size: 18px;
+                        }
+                    }
+            }   
+        }
+
+    }   
 }

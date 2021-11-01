@@ -1,0 +1,324 @@
+//Estilos index Main
+.indexMain {
+    display: flex; 
+        
+        h2{
+            font-size: 50px;
+            font-weight: 500px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+            p {
+                font-size: 20px;
+                font-weight: 400px;
+                text-align: center;
+                margin-bottom: 20px;
+                color: #082830;
+            }
+    
+                img {
+                    display: flex;
+                    width: 720px;
+                    height: 810px;
+                }  
+}
+
+.imgIndexPrincipal {
+    z-index: 1;
+    margin-top: -130px;
+    margin-right: 0px;
+}
+
+.menuIndex{
+    z-index: 2;
+}
+
+.contenedorIndexTitulo {
+    display: grid;
+    align-content: center;
+    margin-top: -250px;
+}
+
+.botonesIndex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0 auto;
+    
+        .boton1 {
+            background-color: #00A3CC80;
+            border-color: #00A3CC80;
+            border-radius: 25px;
+            width: 180px;
+            height: 52px;
+        }
+
+        .boton2 {
+            background-color: $colorPrincipal;
+            border-color: $colorPrincipal;
+            border-radius: 25px;
+            width: 180px;  
+            height: 52px;            
+        }
+            a {
+                font-size: 16px;
+                font-weight: 500px;
+                text-transform: uppercase;
+                text-decoration: none;
+                color: #ffffff;
+                text-align: center;
+            }
+}
+
+// Estilos Index sección cards
+.contenedorIndexPrimeraSeccion {
+    margin-top: 60px;
+    background-color: #F1F3F8;
+    width: 1348px;
+    height: 1800px;
+    border-radius: 50%/100px 100px 0 0;
+    position: relative;
+}
+
+.cardsIndex {
+    display: grid;
+    justify-items: stretch;
+    align-items: center;
+    align-content: center;
+    background-color: #ffffff;
+    width: 970px;
+    height: 347px;
+    border-radius: 25px;
+    position: absolute;
+
+        .imgIndexCards {
+            position: absolute;
+            margin-top: -40px;
+            margin-left: 30px;
+        
+            img {
+                width: 430px;
+                height: 460px;
+                border-radius: 25px;
+                margin-bottom: -20px;
+            }
+        }
+}
+
+.cardIndex1 {    
+    justify-content: end;
+    margin-left: 40px;
+    margin-top: 150px;    
+}
+
+.cardIndex2 {
+    justify-content: start;
+    margin-left: 350px;
+    margin-top: 750px;
+    
+        img {
+            margin-left: 480px;
+        }
+}
+
+.cardIndex3 {
+    justify-content: end;
+    margin-left: 40px;
+    margin-top: 1300px;    
+}
+
+.textoIndexCard {
+    margin: 70px;
+}
+
+//Estilos index segunda sección
+.segundaSeccionIndex {
+    margin-top: 150px;
+        h4 {
+            color: #000;
+            text-align: center;
+            font-size: 48px;
+            margin-bottom: 150px;
+        }
+            span {
+                color: $colorSecundario
+            }
+}
+
+.contenedorFuncionamiento {
+    position: relative;
+    margin-top: 150%;
+    width: 1123px;
+    height: 337px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.miniCardBusca {
+    display: flex;
+    position: absolute;
+    width: 182px;
+    height: 337px;
+
+        .circuloCard {
+            position: absolute;
+            background-color: $colorPrincipal;
+            width: 117px;
+            height: 117px;
+            border-radius: 50%;
+            margin-left: 30px;
+            margin-top: 20px;
+
+                img {
+                    position: absolute;
+                    margin: 25px;
+                }
+        }    
+
+                hr {
+                    background-color: $colorPrincipal;
+                    height: 2.5px;
+                    width: 890%;
+                    position: absolute;
+                    margin-top: 50px;
+                    margin-left: 115px;
+                }
+
+                .textoCard {
+                    margin-top: 150px; 
+                        
+                        h5 {
+                        font-size: 36px;
+                        color: #000;
+                        text-align: center;
+                        }
+        
+                            p {
+                                font-size: 18px;
+                                color: #1E1B1B;
+                                text-align: center;
+                            }
+                    }
+    }            
+
+
+
+.miniCardAgenda {
+    display: flex;
+    position: absolute;
+    width: 182px;
+    height: 337px;
+    margin-left: 350px;
+
+    .circuloCard {
+        position: absolute;
+        background-color: $colorPrincipal;
+        width: 117px;
+        height: 117px;
+        border-radius: 50%;
+        margin-left: 30px;
+        margin-top: 20px;
+
+            img {
+                position: absolute;
+                margin: 25px;
+            }
+    }
+
+    .textoCard {
+        margin-top: 150px; 
+            
+            h5 {
+            font-size: 36px;
+            color: #000;
+            text-align: center;
+            }
+
+                p {
+                    font-size: 18px;
+                    color: #1E1B1B;
+                    text-align: center;
+                }
+        }
+}    
+
+.miniCardPaga {
+    display: flex;
+    position: absolute;
+    width: 182px;
+    height: 337px;
+    margin-left: 700px;
+
+    .circuloCard {
+        position: absolute;
+        background-color: $colorPrincipal;
+        width: 117px;
+        height: 117px;
+        border-radius: 50%;
+        margin-left: 30px;
+        margin-top: 20px;
+    
+            img {
+                position: absolute;
+                margin: 32px;
+            }
+        }    
+    
+    
+            .textoCard {
+                margin-top: 150px; 
+                    
+                    h5 {
+                    font-size: 36px;
+                    color: #000;
+                    text-align: center;
+                    }
+    
+                        p {
+                            font-size: 18px;
+                            color: #1E1B1B;
+                            text-align: center;
+                        }
+                }
+}    
+
+.miniCardDescansa {
+    display: flex;
+    position: absolute;
+    width: 182px;
+    height: 337px;
+    margin-left: 1050px;
+
+    .circuloCard {
+        position: absolute;
+        background-color: $colorPrincipal;
+        width: 117px;
+        height: 117px;
+        border-radius: 50%;
+        margin-left: 30px;
+        margin-top: 20px;
+        
+            img {
+                position: absolute;
+                margin: 35px;
+            }
+    }
+
+            .textoCard {
+            margin-top: 150px; 
+                
+                h5 {
+                text-align: center;
+                font-size: 36px;
+                color: #000;
+                }
+
+                    p {
+                        font-size: 18px;
+                        color: #1E1B1B;
+                        text-align: center;
+                    }
+            }
+
+}

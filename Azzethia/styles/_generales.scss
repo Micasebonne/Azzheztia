@@ -4,6 +4,7 @@ $fuente: 'Poppins', sans-serif;
 $colorPrincipal: #00A3CC;
 $colorSecundario: #FF8500;
 $colorTexto: #373F41;
+$colorBlanco: #ffffff;
 
 header{
     display: flex;
@@ -37,6 +38,7 @@ header{
         border-end-start-radius: 40px;
         border-start-start-radius: 40px;
         border-start-end-radius: 40px;
+        background-color: $colorBlanco;
 
             .ulPrincipal{
                 padding: 0px 0px;
@@ -54,4 +56,15 @@ header{
                 }
             }
     }
+}
+
+// Fuente para todo el body
+body {
+    font-family: $fuente;
+}
+
+// Reseteo de estilos 
+* {
+    margin: 0px;
+    padding: 0px;
 }
