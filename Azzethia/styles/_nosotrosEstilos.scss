@@ -1,0 +1,117 @@
+main {
+    h2 {
+        color: $colorTexto;
+        font-size: 48px;
+    }
+
+    p {
+        color: #000000;
+        font-size: 18px;
+        font-weight: normal;
+        text-align: start;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+}
+
+.containerBorde {
+    position: absolute;
+    background-color: #fff;
+    width: 1345px;
+    height: 163px;
+    z-index: 1;
+    border-radius: 0 0 50% 50%;
+}
+
+.containerNosotros {
+    width: 1345px;
+    height: 657px;
+    background-color: #f1f3f8;
+    position: relative;
+
+        .containerTextos {
+            position: absolute;
+            color: #000000;
+            margin-top: 300px;
+            text-align: center;
+            display: grid;
+            grid-template-columns: 5fr 3fr;
+
+                h3 {
+                    font-size: 30px;
+                }
+
+                p {
+                    font-size: 18px;
+                    margin-top: 20px;
+                }
+        }
+
+}
+
+.seccionHistorias {
+    position: relative;
+        h2 {
+            color: $colorPrincipal;
+            font-size: 48px;
+            font-weight: normal;
+        }
+
+        .cardOpiniones {
+            position: absolute;
+            width: 450px;
+            height: 298px;
+            background-color: #fff;
+            border-radius: 25px;
+            box-shadow: 8px 8px 8px 8px #d3d4d4;
+
+             h3 {
+                 font-size: 26px;
+                 margin-top: 40px;
+                 margin-left: 20px;
+             }
+
+             p {
+                font-size: 18px;
+                margin-top: 15px;
+                margin-left: 20px;
+             }
+        }
+
+            .cardEstrellas {
+                position: absolute;
+                width: 204px;
+                height: 54px;
+                background-color: $colorPrincipal;
+                border-radius: 25px;
+                margin-left: 260px;
+                margin-top: -25px;
+
+                    img {
+                        margin-left: 15px;
+                        margin-top: 15px;
+                    }
+            }
+
+}
+
+.cardOpiniones1 {
+    margin-left: 30px;
+    margin-top: 150px;
+}
+
+.cardOpiniones2 {
+    margin-top: 150px;
+    margin-left: 700px;
+}
+
+.cardOpiniones3 {
+    margin-top: 650px;
+    margin-left: 250px;
+}
+
+.cardOpiniones4 {
+    margin-top: 650px;
+    margin-left: 870px;
+}
