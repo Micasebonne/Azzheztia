@@ -230,17 +230,30 @@ footer {
   height: 560px;
   background-color: #00A3CC;
   margin-top: 1200px; }
+  @media (min-width: 280px) and (max-width: 480px) {
+    footer {
+      width: 500px;
+      height: 500px;
+      display: block;
+      margin-top: 100px; } }
   footer .divFooter1 {
     display: grid;
     align-content: center;
     justify-content: start;
     justify-items: stretch; }
+    @media (min-width: 280px) and (max-width: 480px) {
+      footer .divFooter1 {
+        display: block;
+        margin-left: -40px; } }
     footer .divFooter1 h2 {
       text-align: left;
       color: #ffffff;
       font-weight: 600;
       font-size: 30px;
       margin-left: 55px; }
+      @media (min-width: 280px) and (max-width: 480px) {
+        footer .divFooter1 h2 {
+          font-size: 18px; } }
     footer .divFooter1 p {
       color: #ffffff;
       margin-top: 18px;
@@ -248,11 +261,17 @@ footer {
       font-size: 26px;
       margin-left: 55px;
       margin-bottom: 20px; }
+      @media (min-width: 280px) and (max-width: 480px) {
+        footer .divFooter1 p {
+          font-size: 14px; } }
     footer .divFooter1 ul {
       list-style-type: none;
       font-weight: 300px;
       font-size: 18px;
       margin-left: 38px; }
+      @media (min-width: 280px) and (max-width: 480px) {
+        footer .divFooter1 ul {
+          font-size: 14px; } }
     footer .divFooter1 li {
       margin: 18px; }
     footer .divFooter1 a {
@@ -264,11 +283,20 @@ footer {
     justify-content: space-evenly;
     justify-items: center;
     margin-top: -110px; }
+    @media (min-width: 280px) and (max-width: 480px) {
+      footer .divFooter2 {
+        display: block;
+        margin-top: 0px;
+        margin-left: 15px; } }
     footer .divFooter2 h4 {
       color: #ffffff;
       font-weight: 400;
       font-size: 30px;
       margin-bottom: 20px; }
+      @media (min-width: 280px) and (max-width: 480px) {
+        footer .divFooter2 h4 {
+          font-size: 18px;
+          font-weight: bold; } }
   footer .divFooter3 {
     display: grid;
     align-items: center;
@@ -276,11 +304,19 @@ footer {
     align-content: center;
     margin-top: -200px;
     margin-right: 35px; }
+    @media (min-width: 280px) and (max-width: 480px) {
+      footer .divFooter3 {
+        display: block;
+        margin-top: 20px;
+        margin-left: 15px; } }
     footer .divFooter3 h4 {
       color: #ffffff;
       font-weight: 400;
       font-size: 30px;
       margin-bottom: 10px; }
+      @media (min-width: 280px) and (max-width: 480px) {
+        footer .divFooter3 h4 {
+          font-size: 18px; } }
     footer .divFooter3 .redes {
       list-style: none;
       display: flex;
@@ -288,9 +324,28 @@ footer {
       justify-content: space-evenly;
       align-items: center;
       margin-left: 15px; }
+      @media (min-width: 280px) and (max-width: 480px) {
+        footer .divFooter3 .redes {
+          justify-content: flex-start;
+          margin-top: 10px;
+          margin-left: 0px; } }
 
-.logoAppStore {
-  margin-bottom: 10px; }
+@media (min-width: 280px) and (max-width: 480px) {
+  .logoFacebook {
+    margin-left: 10px; } }
+
+.logos {
+  display: flex;
+  flex-direction: column; }
+  @media (min-width: 280px) and (max-width: 480px) {
+    .logos {
+      display: flex;
+      flex-direction: row; } }
+  .logos .logoAppStore {
+    margin-bottom: 10px; }
+    @media (min-width: 280px) and (max-width: 480px) {
+      .logos .logoAppStore {
+        margin-right: 15px; } }
 
 .indexMain {
   display: flex; }
@@ -299,16 +354,28 @@ footer {
     font-weight: 500px;
     text-align: center;
     margin-bottom: 40px; }
+    @media (min-width: 280px) and (max-width: 480px) {
+      .indexMain h2 {
+        font-size: 24px;
+        margin-top: 40px;
+        margin-bottom: 10px; } }
   .indexMain p {
     font-size: 20px;
     font-weight: 400px;
     text-align: center;
     margin-bottom: 20px;
     color: #082830; }
+    @media (min-width: 280px) and (max-width: 480px) {
+      .indexMain p {
+        font-size: 16px;
+        margin-top: -2px; } }
   .indexMain img {
     display: flex;
     width: 720px;
     height: 810px; }
+    @media (min-width: 280px) and (max-width: 480px) {
+      .indexMain img {
+        display: none; } }
 
 .imgIndexPrincipal {
   z-index: 1;
@@ -322,6 +389,9 @@ footer {
   display: grid;
   align-content: center;
   margin-top: -250px; }
+  @media (min-width: 280px) and (max-width: 480px) {
+    .contenedorIndexTitulo {
+      margin-top: 0; } }
 
 .botonesIndex {
   display: flex;
@@ -335,12 +405,20 @@ footer {
     border-radius: 25px;
     width: 180px;
     height: 52px; }
+    @media (min-width: 280px) and (max-width: 480px) {
+      .botonesIndex .boton1 {
+        width: 160px;
+        height: 42px; } }
   .botonesIndex .boton2 {
     background-color: #00A3CC;
     border-color: #00A3CC;
     border-radius: 25px;
     width: 180px;
     height: 52px; }
+    @media (min-width: 280px) and (max-width: 480px) {
+      .botonesIndex .boton2 {
+        width: 160px;
+        height: 42px; } }
   .botonesIndex a {
     font-size: 16px;
     font-weight: 500px;
@@ -348,6 +426,9 @@ footer {
     text-decoration: none;
     color: #ffffff;
     text-align: center; }
+    @media (min-width: 280px) and (max-width: 480px) {
+      .botonesIndex a {
+        font-size: 14px; } }
 
 .contenedorIndexPrimeraSeccion {
   margin-top: 200px;
@@ -356,6 +437,12 @@ footer {
   height: 1800px;
   border-radius: 50%/100px 100px 0 0;
   position: relative; }
+  @media (min-width: 280px) and (max-width: 480px) {
+    .contenedorIndexPrimeraSeccion {
+      background-color: #ffffff;
+      width: 90%;
+      margin: 0 auto;
+      margin-top: 80px; } }
 
 .cardsIndex {
   display: grid;
@@ -366,36 +453,101 @@ footer {
   width: 970px;
   height: 347px;
   border-radius: 25px;
-  position: absolute; }
+  position: absolute;
+  box-shadow: 8px 8px 8px 8px #d3d4d4; }
+  @media (min-width: 280px) and (max-width: 480px) {
+    .cardsIndex {
+      width: 327px;
+      height: 333px;
+      position: relative; } }
   .cardsIndex .imgIndexCards {
     position: absolute;
     margin-top: -40px;
     margin-left: 30px; }
+    @media (min-width: 280px) and (max-width: 480px) {
+      .cardsIndex .imgIndexCards {
+        position: relative;
+        margin-top: 0px;
+        margin-left: 0px; } }
     .cardsIndex .imgIndexCards img {
-      width: 430px;
-      height: 460px;
+      width: 450px;
+      height: 450px;
       border-radius: 25px;
       margin-bottom: -20px; }
+      @media (min-width: 280px) and (max-width: 480px) {
+        .cardsIndex .imgIndexCards img {
+          width: 327px;
+          height: 194px; } }
 
 .cardIndex1 {
   justify-content: end;
   margin-left: 40px;
   margin-top: 200px; }
+  @media (min-width: 280px) and (max-width: 480px) {
+    .cardIndex1 {
+      justify-content: center;
+      margin: 0 auto;
+      margin-bottom: 70px; } }
 
 .cardIndex2 {
   justify-content: start;
   margin-left: 350px;
   margin-top: 800px; }
+  @media (min-width: 280px) and (max-width: 480px) {
+    .cardIndex2 {
+      justify-content: center;
+      margin: 0 auto;
+      margin-bottom: 70px; } }
   .cardIndex2 img {
     margin-left: 480px; }
+    @media (min-width: 280px) and (max-width: 480px) {
+      .cardIndex2 img {
+        margin-left: 0px; } }
 
 .cardIndex3 {
   justify-content: end;
   margin-left: 40px;
   margin-top: 1350px; }
+  @media (min-width: 280px) and (max-width: 480px) {
+    .cardIndex3 {
+      justify-content: center;
+      margin: 0 auto;
+      margin-bottom: 70px; } }
 
-.textoIndexCard {
-  margin: 70px; }
+@media (min-width: 280px) and (max-width: 480px) {
+  .textoIndexCard h3 {
+    font-size: 18px; } }
+
+@media (min-width: 280px) and (max-width: 480px) {
+  .textoIndexCard p {
+    font-size: 14px; } }
+
+.textoIndexCard1 {
+  width: 80%;
+  margin: 0 auto;
+  text-align: start; }
+  @media (min-width: 280px) and (max-width: 480px) {
+    .textoIndexCard1 {
+      width: 95%;
+      margin: 15px; } }
+
+.textoIndexCard2 {
+  width: 60%;
+  margin: 0 auto;
+  margin-left: 50px; }
+  @media (min-width: 280px) and (max-width: 480px) {
+    .textoIndexCard2 {
+      width: 95%;
+      margin: 15px; } }
+
+.textoIndexCard3 {
+  width: 90%;
+  margin: 0 auto;
+  margin-right: 50px; }
+  @media (min-width: 280px) and (max-width: 480px) {
+    .textoIndexCard3 {
+      width: 95%;
+      margin: 20px; } }
 
 .segundaSeccionIndex {
   margin-top: 200px; }
@@ -404,6 +556,11 @@ footer {
     text-align: center;
     font-size: 48px;
     margin-bottom: 200px; }
+    @media (min-width: 280px) and (max-width: 480px) {
+      .segundaSeccionIndex h4 {
+        font-size: 20px;
+        margin-top: 300px;
+        margin-bottom: 20px; } }
   .segundaSeccionIndex span {
     color: #FF8500; }
 
@@ -414,13 +571,24 @@ footer {
   height: 337px;
   width: 90%;
   margin: 0 auto; }
+  @media (min-width: 280px) and (max-width: 480px) {
+    .contenedorFuncionamiento {
+      width: 206px;
+      height: 836px;
+      margin-top: -900px; } }
 
-.miniCardBusca {
+.miniCard {
   display: flex;
   position: absolute;
   width: 182px;
   height: 337px; }
-  .miniCardBusca .circuloCard {
+  @media (min-width: 280px) and (max-width: 480px) {
+    .miniCard {
+      width: 206px;
+      height: 153px;
+      flex-direction: column;
+      position: relative; } }
+  .miniCard .circuloCard {
     position: absolute;
     background-color: #00A3CC;
     width: 117px;
@@ -428,110 +596,97 @@ footer {
     border-radius: 50%;
     margin-left: 30px;
     margin-top: 20px; }
-    .miniCardBusca .circuloCard img {
+    @media (min-width: 280px) and (max-width: 480px) {
+      .miniCard .circuloCard {
+        width: 45px;
+        height: 45px;
+        margin-left: 80px; } }
+    .miniCard .circuloCard img {
       position: absolute;
       margin: 25px; }
-  .miniCardBusca hr {
-    background-color: #00A3CC;
-    height: 2.5px;
-    width: 890%;
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 115px; }
-  .miniCardBusca .textoCard {
-    margin-top: 150px; }
-    .miniCardBusca .textoCard h5 {
-      font-size: 36px;
-      color: #000;
-      text-align: center; }
-    .miniCardBusca .textoCard p {
-      font-size: 18px;
-      color: #1E1B1B;
-      text-align: center; }
+      @media (min-width: 280px) and (max-width: 480px) {
+        .miniCard .circuloCard img {
+          width: 24px;
+          height: 24px;
+          margin: 10px; } }
+    .miniCard .circuloCard hr {
+      background-color: #00A3CC;
+      height: 2.5px;
+      width: 210%;
+      position: absolute;
+      margin-top: 50px;
+      margin-left: 115px; }
+      @media (min-width: 280px) and (max-width: 480px) {
+        .miniCard .circuloCard hr {
+          border: none;
+          border-left: 1px solid #73848c;
+          height: 5vh;
+          width: 1px;
+          margin-left: 22px;
+          margin-top: 150px; } }
+
+.textoCard {
+  margin-top: 150px; }
+  @media (min-width: 280px) and (max-width: 480px) {
+    .textoCard {
+      margin-top: 70px; } }
+  .textoCard h5 {
+    font-size: 36px;
+    color: #000;
+    text-align: center; }
+    @media (min-width: 280px) and (max-width: 480px) {
+      .textoCard h5 {
+        font-size: 18px;
+        margin-top: 10px; } }
+  .textoCard p {
+    font-size: 18px;
+    color: #1E1B1B;
+    text-align: center; }
+    @media (min-width: 280px) and (max-width: 480px) {
+      .textoCard p {
+        font-size: 14px;
+        margin-top: 15px; } }
+
+@media (min-width: 280px) and (max-width: 480px) {
+  .miniCardBusca {
+    margin-bottom: -20px; } }
 
 .miniCardAgenda {
-  display: flex;
-  position: absolute;
-  width: 182px;
-  height: 337px;
   margin-left: 350px; }
-  .miniCardAgenda .circuloCard {
-    position: absolute;
-    background-color: #00A3CC;
-    width: 117px;
-    height: 117px;
-    border-radius: 50%;
-    margin-left: 30px;
-    margin-top: 20px; }
-    .miniCardAgenda .circuloCard img {
-      position: absolute;
-      margin: 25px; }
-  .miniCardAgenda .textoCard {
-    margin-top: 150px; }
-    .miniCardAgenda .textoCard h5 {
-      font-size: 36px;
-      color: #000;
-      text-align: center; }
-    .miniCardAgenda .textoCard p {
-      font-size: 18px;
-      color: #1E1B1B;
-      text-align: center; }
+  @media (min-width: 280px) and (max-width: 480px) {
+    .miniCardAgenda {
+      margin-left: 0px;
+      margin-top: 30%; } }
+  @media (min-width: 280px) and (max-width: 480px) {
+    .miniCardAgenda .circuloCard hr {
+      margin-top: 170px; } }
 
 .miniCardPaga {
-  display: flex;
-  position: absolute;
-  width: 182px;
-  height: 337px;
   margin-left: 700px; }
-  .miniCardPaga .circuloCard {
-    position: absolute;
-    background-color: #00A3CC;
-    width: 117px;
-    height: 117px;
-    border-radius: 50%;
-    margin-left: 30px;
-    margin-top: 20px; }
-    .miniCardPaga .circuloCard img {
-      position: absolute;
-      margin: 32px; }
-  .miniCardPaga .textoCard {
-    margin-top: 150px; }
-    .miniCardPaga .textoCard h5 {
-      font-size: 36px;
-      color: #000;
-      text-align: center; }
-    .miniCardPaga .textoCard p {
-      font-size: 18px;
-      color: #1E1B1B;
-      text-align: center; }
+  @media (min-width: 280px) and (max-width: 480px) {
+    .miniCardPaga {
+      margin-left: 0px;
+      margin-top: 30%; } }
+  .miniCardPaga .circuloCard img {
+    margin: 32px; }
+    @media (min-width: 280px) and (max-width: 480px) {
+      .miniCardPaga .circuloCard img {
+        margin: 10px; } }
+  @media (min-width: 280px) and (max-width: 480px) {
+    .miniCardPaga .circuloCard hr {
+      margin-top: 170px; } }
 
 .miniCardDescansa {
-  display: flex;
-  position: absolute;
-  width: 182px;
-  height: 337px;
   margin-left: 1050px; }
-  .miniCardDescansa .circuloCard {
-    position: absolute;
-    background-color: #00A3CC;
-    width: 117px;
-    height: 117px;
-    border-radius: 50%;
-    margin-left: 30px;
-    margin-top: 20px; }
-    .miniCardDescansa .circuloCard img {
-      position: absolute;
-      margin: 35px; }
-  .miniCardDescansa .textoCard {
-    margin-top: 150px; }
-    .miniCardDescansa .textoCard h5 {
-      text-align: center;
-      font-size: 36px;
-      color: #000; }
-    .miniCardDescansa .textoCard p {
-      font-size: 18px;
-      color: #1E1B1B;
-      text-align: center; }
+  @media (min-width: 280px) and (max-width: 480px) {
+    .miniCardDescansa {
+      margin-left: 0px;
+      margin-top: 30%; } }
+  .miniCardDescansa .circuloCard img {
+    margin: 35px; }
+    @media (min-width: 280px) and (max-width: 480px) {
+      .miniCardDescansa .circuloCard img {
+        margin: 10px; } }
 
 main h2 {
   color: #373F41;

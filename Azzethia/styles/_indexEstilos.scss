@@ -7,6 +7,11 @@
             font-weight: 500px;
             text-align: center;
             margin-bottom: 40px;
+            @media (min-width: 280px) and (max-width: 480px) {
+                font-size: 24px;
+                margin-top: 40px;
+                margin-bottom: 10px;
+            }      
         }
             p {
                 font-size: 20px;
@@ -14,12 +19,19 @@
                 text-align: center;
                 margin-bottom: 20px;
                 color: #082830;
+                @media (min-width: 280px) and (max-width: 480px) {
+                    font-size: 16px;
+                    margin-top: -2px;  
+                }
             }
     
                 img {
                     display: flex;
                     width: 720px;
                     height: 810px;
+                    @media (min-width: 280px) and (max-width: 480px) {
+                        display: none;  
+                    }
                 }  
 }
 
@@ -37,6 +49,9 @@
     display: grid;
     align-content: center;
     margin-top: -250px;
+    @media (min-width: 280px) and (max-width: 480px) {
+        margin-top: 0;
+    }  
 }
 
 .botonesIndex {
@@ -52,6 +67,10 @@
             border-radius: 25px;
             width: 180px;
             height: 52px;
+            @media (min-width: 280px) and (max-width: 480px) {
+                width: 160px;
+                height: 42px; 
+            } 
         }
 
         .boton2 {
@@ -59,7 +78,11 @@
             border-color: $colorPrincipal;
             border-radius: 25px;
             width: 180px;  
-            height: 52px;            
+            height: 52px;
+            @media (min-width: 280px) and (max-width: 480px) {
+                width: 160px;
+                height: 42px;              
+            }
         }
             a {
                 font-size: 16px;
@@ -68,6 +91,9 @@
                 text-decoration: none;
                 color: #ffffff;
                 text-align: center;
+                @media (min-width: 280px) and (max-width: 480px) {
+                    font-size: 14px;
+                }  
             }
 }
 
@@ -79,6 +105,12 @@
     height: 1800px;
     border-radius: 50%/100px 100px 0 0;
     position: relative;
+    @media (min-width: 280px) and (max-width: 480px) {
+        background-color: $colorBlanco; 
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 80px; 
+    }
 }
 
 .cardsIndex {
@@ -91,17 +123,32 @@
     height: 347px;
     border-radius: 25px;
     position: absolute;
+    box-shadow: 8px 8px 8px 8px #d3d4d4;
+    @media (min-width: 280px) and (max-width: 480px) {
+        width: 327px;
+        height: 333px;
+        position: relative;
+    }  
 
         .imgIndexCards {
             position: absolute;
             margin-top: -40px;
             margin-left: 30px;
+            @media (min-width: 280px) and (max-width: 480px) {
+                position: relative;
+                margin-top: 0px;
+                margin-left: 0px;  
+           }
         
             img {
-                width: 430px;
-                height: 460px;
+                width: 450px;
+                height: 450px;
                 border-radius: 25px;
                 margin-bottom: -20px;
+                @media (min-width: 280px) and (max-width: 480px) {
+                     width: 327px;
+                     height: 194px;  
+                }
             }
         }
 }
@@ -109,27 +156,85 @@
 .cardIndex1 {    
     justify-content: end;
     margin-left: 40px;
-    margin-top: 200px;    
+    margin-top: 200px;
+    @media (min-width: 280px) and (max-width: 480px) {
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 70px;  
+   }    
 }
 
 .cardIndex2 {
     justify-content: start;
     margin-left: 350px;
     margin-top: 800px;
+    @media (min-width: 280px) and (max-width: 480px) {
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 70px;
+   }    
     
         img {
             margin-left: 480px;
+            @media (min-width: 280px) and (max-width: 480px) {
+                margin-left: 0px;  
+           }    
         }
 }
 
 .cardIndex3 {
     justify-content: end;
     margin-left: 40px;
-    margin-top: 1350px;    
+    margin-top: 1350px;
+    @media (min-width: 280px) and (max-width: 480px) {
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 70px;  
+   }        
 }
 
 .textoIndexCard {
-    margin: 70px;
+        h3 {
+        @media (min-width: 280px) and (max-width: 480px) {
+        font-size: 18px;
+        }        
+        }
+        
+        p {
+        @media (min-width: 280px) and (max-width: 480px) {
+        font-size: 14px;
+        }
+        }
+}
+
+.textoIndexCard1 {
+    width: 80%;
+    margin: 0 auto;
+    text-align: start;
+    @media (min-width: 280px) and (max-width: 480px) {
+        width: 95%;
+        margin: 15px;  
+   }
+}
+
+.textoIndexCard2 {
+    width: 60%;
+    margin: 0 auto;
+    margin-left: 50px;
+    @media (min-width: 280px) and (max-width: 480px) {
+        width: 95%;
+        margin: 15px;  
+   }
+}
+
+.textoIndexCard3 {
+    width: 90%;
+    margin: 0 auto;
+    margin-right: 50px;
+    @media (min-width: 280px) and (max-width: 480px) {
+        width: 95%;
+        margin: 20px;  
+   }
 }
 
 //Estilos index segunda sección
@@ -140,6 +245,11 @@
             text-align: center;
             font-size: 48px;
             margin-bottom: 200px;
+        @media (min-width: 280px) and (max-width: 480px) {
+            font-size: 20px;
+            margin-top: 300px;
+            margin-bottom: 20px;  
+           }    
         }
             span {
                 color: $colorSecundario
@@ -153,14 +263,24 @@
     height: 337px;
     width: 90%;
     margin: 0 auto;
+    @media (min-width: 280px) and (max-width: 480px) {
+        width: 206px;
+        height: 836px;
+        margin-top: -900px;  
+   }
 }
 
-.miniCardBusca {
+.miniCard {
     display: flex;
     position: absolute;
     width: 182px;
     height: 337px;
-
+    @media (min-width: 280px) and (max-width: 480px) {
+        width: 206px;
+        height: 153px;
+        flex-direction: column;
+        position: relative;  
+   }
         .circuloCard {
             position: absolute;
             background-color: $colorPrincipal;
@@ -169,156 +289,124 @@
             border-radius: 50%;
             margin-left: 30px;
             margin-top: 20px;
+            @media (min-width: 280px) and (max-width: 480px) {
+                width: 45px;
+                height: 45px;
+                margin-left: 80px;  
+           }
 
                 img {
                     position: absolute;
                     margin: 25px;
+                    @media (min-width: 280px) and (max-width: 480px) {
+                        width: 24px;
+                        height: 24px;
+                        margin: 10px;
+                    }
                 }
-        }    
 
                 hr {
                     background-color: $colorPrincipal;
                     height: 2.5px;
-                    width: 890%;
+                    width: 210%;
                     position: absolute;
                     margin-top: 50px;
                     margin-left: 115px;
-                }
-
-                .textoCard {
-                    margin-top: 150px; 
-                        
-                        h5 {
-                        font-size: 36px;
-                        color: #000;
-                        text-align: center;
-                        }
-        
-                            p {
-                                font-size: 18px;
-                                color: #1E1B1B;
-                                text-align: center;
-                            }
+                    @media (min-width: 280px) and (max-width: 480px) {
+                        border: none;
+                        border-left: 1px solid hsla(200, 10%, 50%, 100);
+                        height: 5vh;
+                        width: 1px;
+                        margin-left: 22px;
+                        margin-top: 150px;  
                     }
-    }            
-
-
-
-.miniCardAgenda {
-    display: flex;
-    position: absolute;
-    width: 182px;
-    height: 337px;
-    margin-left: 350px;
-
-    .circuloCard {
-        position: absolute;
-        background-color: $colorPrincipal;
-        width: 117px;
-        height: 117px;
-        border-radius: 50%;
-        margin-left: 30px;
-        margin-top: 20px;
-
-            img {
-                position: absolute;
-                margin: 25px;
-            }
+                }                    
     }
+}
 
-    .textoCard {
-        margin-top: 150px; 
-            
-            h5 {
-            font-size: 36px;
-            color: #000;
-            text-align: center;
-            }
-
+        .textoCard {
+            margin-top: 150px;
+            @media (min-width: 280px) and (max-width: 480px) {
+                margin-top: 70px;  
+           } 
+                        
+                h5 {
+                    font-size: 36px;
+                    color: #000;
+                    text-align: center;
+                    @media (min-width: 280px) and (max-width: 480px) {
+                        font-size: 18px;
+                        margin-top: 10px;  
+                   }
+                }
+        
                 p {
                     font-size: 18px;
                     color: #1E1B1B;
                     text-align: center;
+                    @media (min-width: 280px) and (max-width: 480px) {
+                        font-size: 14px; 
+                        margin-top: 15px; 
+                   }
                 }
         }
-}    
+
+.miniCardBusca {
+    @media (min-width: 280px) and (max-width: 480px) {
+        margin-bottom: -20px;
+}
+}
+
+.miniCardAgenda {
+    margin-left: 350px;
+    @media (min-width: 280px) and (max-width: 480px) {
+        margin-left: 0px;
+        margin-top: 30%;  
+   }
+    
+        .circuloCard {
+                hr {
+                @media (min-width: 280px) and (max-width: 480px) {
+                        margin-top: 170px;  
+                   }
+                }
+    }
+   
+}
 
 .miniCardPaga {
-    display: flex;
-    position: absolute;
-    width: 182px;
-    height: 337px;
     margin-left: 700px;
-
-    .circuloCard {
-        position: absolute;
-        background-color: $colorPrincipal;
-        width: 117px;
-        height: 117px;
-        border-radius: 50%;
-        margin-left: 30px;
-        margin-top: 20px;
-    
+    @media (min-width: 280px) and (max-width: 480px) {
+        margin-left: 0px;  
+        margin-top: 30%;
+   }    
+        .circuloCard {
             img {
-                position: absolute;
                 margin: 32px;
+                @media (min-width: 280px) and (max-width: 480px) {
+                    margin: 10px;  
+               }    
             }
-        }    
-    
-    
-            .textoCard {
-                margin-top: 150px; 
-                    
-                    h5 {
-                    font-size: 36px;
-                    color: #000;
-                    text-align: center;
-                    }
-    
-                        p {
-                            font-size: 18px;
-                            color: #1E1B1B;
-                            text-align: center;
-                        }
-                }
-}    
+            hr {
+                @media (min-width: 280px) and (max-width: 480px) {
+                        margin-top: 170px;  
+                   }
+                }    
+        }
+}
 
 .miniCardDescansa {
-    display: flex;
-    position: absolute;
-    width: 182px;
-    height: 337px;
     margin-left: 1050px;
-
-    .circuloCard {
-        position: absolute;
-        background-color: $colorPrincipal;
-        width: 117px;
-        height: 117px;
-        border-radius: 50%;
-        margin-left: 30px;
-        margin-top: 20px;
-        
+    @media (min-width: 280px) and (max-width: 480px) {
+        margin-left: 0px;
+        margin-top: 30%;  
+   }
+        .circuloCard {
             img {
-                position: absolute;
                 margin: 35px;
+                @media (min-width: 280px) and (max-width: 480px) {
+                    margin: 10px;  
+               }
             }
     }
-
-            .textoCard {
-            margin-top: 150px; 
-                
-                h5 {
-                text-align: center;
-                font-size: 36px;
-                color: #000;
-                }
-
-                    p {
-                        font-size: 18px;
-                        color: #1E1B1B;
-                        text-align: center;
-                    }
-            }
-
 }
