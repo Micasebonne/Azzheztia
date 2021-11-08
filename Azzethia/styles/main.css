@@ -235,7 +235,7 @@ footer {
       width: 500px;
       height: 500px;
       display: block;
-      margin-top: 100px; } }
+      margin-top: 1350px; } }
   footer .divFooter1 {
     display: grid;
     align-content: center;
@@ -690,7 +690,12 @@ footer {
 
 main h2 {
   color: #373F41;
-  font-size: 48px; }
+  font-size: 48px;
+  width: 90%;
+  margin: 0 auto; }
+  @media (min-width: 280px) and (max-width: 480px) {
+    main h2 {
+      font-size: 20px; } }
 
 main p {
   color: #000000;
@@ -700,6 +705,11 @@ main p {
   width: 80%;
   margin: 0 auto;
   margin-top: 50px; }
+  @media (min-width: 280px) and (max-width: 480px) {
+    main p {
+      font-size: 14px;
+      text-align: center;
+      margin-top: 20px; } }
 
 .containerBorde {
   position: absolute;
@@ -708,12 +718,22 @@ main p {
   height: 163px;
   z-index: 1;
   border-radius: 0 0 50% 50%; }
+  @media (min-width: 280px) and (max-width: 480px) {
+    .containerBorde {
+      height: 49px;
+      width: 99%;
+      margin: 0 auto; } }
 
 .containerNosotros {
   width: 1345px;
   height: 657px;
   background-color: #f1f3f8;
   position: relative; }
+  @media (min-width: 280px) and (max-width: 480px) {
+    .containerNosotros {
+      height: 500px;
+      width: 99%;
+      margin: 0 auto; } }
   .containerNosotros .containerTextos {
     position: absolute;
     color: #000000;
@@ -721,11 +741,30 @@ main p {
     text-align: center;
     display: grid;
     grid-template-columns: 5fr 3fr; }
+    @media (min-width: 280px) and (max-width: 480px) {
+      .containerNosotros .containerTextos {
+        display: flex;
+        flex-direction: column;
+        width: 99%;
+        margin: 0 auto;
+        margin-top: 90px; } }
+    @media (min-width: 280px) and (max-width: 480px) {
+      .containerNosotros .containerTextos .textoMision {
+        margin-top: -20px; } }
+    @media (min-width: 280px) and (max-width: 480px) {
+      .containerNosotros .containerTextos .textoVision {
+        margin-top: 20px; } }
     .containerNosotros .containerTextos h3 {
       font-size: 30px; }
+      @media (min-width: 280px) and (max-width: 480px) {
+        .containerNosotros .containerTextos h3 {
+          font-size: 18px; } }
     .containerNosotros .containerTextos p {
       font-size: 18px;
       margin-top: 20px; }
+      @media (min-width: 280px) and (max-width: 480px) {
+        .containerNosotros .containerTextos p {
+          font-size: 14px; } }
 
 .seccionHistorias {
   position: relative; }
@@ -733,6 +772,9 @@ main p {
     color: #00A3CC;
     font-size: 48px;
     font-weight: normal; }
+    @media (min-width: 280px) and (max-width: 480px) {
+      .seccionHistorias h2 {
+        font-size: 20px; } }
   .seccionHistorias .cardOpiniones {
     position: absolute;
     width: 450px;
@@ -740,14 +782,28 @@ main p {
     background-color: #fff;
     border-radius: 25px;
     box-shadow: 8px 8px 8px 8px #d3d4d4; }
+    @media (min-width: 280px) and (max-width: 480px) {
+      .seccionHistorias .cardOpiniones {
+        width: 333px;
+        height: 270px; } }
     .seccionHistorias .cardOpiniones h3 {
       font-size: 26px;
       margin-top: 40px;
       margin-left: 20px; }
+      @media (min-width: 280px) and (max-width: 480px) {
+        .seccionHistorias .cardOpiniones h3 {
+          font-size: 18px;
+          margin-top: 20px; } }
     .seccionHistorias .cardOpiniones p {
       font-size: 18px;
       margin-top: 15px;
       margin-left: 20px; }
+      @media (min-width: 280px) and (max-width: 480px) {
+        .seccionHistorias .cardOpiniones p {
+          font-style: 14px; } }
+      @media (min-width: 280px) and (max-width: 480px) {
+        .seccionHistorias .cardOpiniones p img {
+          display: none; } }
   .seccionHistorias .cardEstrellas {
     position: absolute;
     width: 204px;
@@ -756,22 +812,47 @@ main p {
     border-radius: 25px;
     margin-left: 260px;
     margin-top: -25px; }
+    @media (min-width: 280px) and (max-width: 480px) {
+      .seccionHistorias .cardEstrellas {
+        width: 147px;
+        height: 36px;
+        margin-top: -20px;
+        margin-left: 220px; } }
     .seccionHistorias .cardEstrellas img {
       margin-left: 15px;
       margin-top: 15px; }
+      @media (min-width: 280px) and (max-width: 480px) {
+        .seccionHistorias .cardEstrellas img {
+          margin-left: 5px;
+          margin-top: 8px; } }
 
 .cardOpiniones1 {
   margin-left: 30px;
   margin-top: 150px; }
+  @media (min-width: 280px) and (max-width: 480px) {
+    .cardOpiniones1 {
+      margin-top: 40px; } }
 
 .cardOpiniones2 {
   margin-top: 150px;
   margin-left: 700px; }
+  @media (min-width: 280px) and (max-width: 480px) {
+    .cardOpiniones2 {
+      margin-top: 360px;
+      margin-left: 30px; } }
 
 .cardOpiniones3 {
   margin-top: 650px;
   margin-left: 250px; }
+  @media (min-width: 280px) and (max-width: 480px) {
+    .cardOpiniones3 {
+      margin-top: 680px;
+      margin-left: 30px; } }
 
 .cardOpiniones4 {
   margin-top: 650px;
   margin-left: 870px; }
+  @media (min-width: 280px) and (max-width: 480px) {
+    .cardOpiniones4 {
+      margin-top: 1000px;
+      margin-left: 30px; } }
