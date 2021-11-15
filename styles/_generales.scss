@@ -30,36 +30,47 @@ header{
         }
     }
 
-    .navPrincipal{
+    .containerNavPrincipal {
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        height: 75px;
-        width: 700px;
-        box-shadow: 5px 10px 18px #888888;
-        border-end-end-radius: 40px;
-        border-end-start-radius: 40px;
-        border-start-start-radius: 40px;
-        border-start-end-radius: 40px;
-        background-color: $colorBlanco;
+        margin: 0 25%;
+        @media (max-width: 640px) {
+            display: none;
+        }
 
-            .ulPrincipal{
-                padding: 0px 0px;
+
+        .navPrincipal{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            height: 75px;
+            width: 700px;
+            box-shadow: 5px 10px 18px #888888;
+            border-end-end-radius: 40px;
+            border-end-start-radius: 40px;
+            border-start-start-radius: 40px;
+            border-start-end-radius: 40px;
+            background-color: $colorBlanco;
+
+                .ulPrincipal{
+                    padding: 0px 0px;
                 
-                .aPrincipal{
-                    color: black;
-                    text-decoration: none;
-                    font-family: $fuente;
-                    font-size: 17px;
-                    font-weight: 500;
+                    .aPrincipal{
+                        color: black;
+                        text-decoration: none;
+                        font-family: $fuente;
+                        font-size: 17px;
+                        font-weight: 500;
+                    }
+
+                    .aPrincipal:hover{
+                        color: $colorPrincipal;
+                    }
                 }
 
-                .aPrincipal:hover{
-                    color: $colorPrincipal;
-                }
-            }
+        }
     }
+}
 
     #btn-menu{
         display: none;
@@ -78,7 +89,7 @@ header{
         }
     
     }    
-}
+
 
 // Fuente para todo el body
 body {

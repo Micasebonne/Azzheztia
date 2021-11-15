@@ -17,8 +17,8 @@
 <body>
     <header>
         <div class="logo">
-            <img class="logoImagen" src="../imagenes/Logo.svg">
-            <h1>Azzethia</h1>
+            <img src="imagenes/Logo.svg" class="logoImagen">
+            <h1>Azzheztia</h1>
         </div>
          <!--MENÚ PRINCIPAL-->
          <input type="checkbox" id="btn-menu">
@@ -36,19 +36,18 @@
             </ul>
          </div>
          <!-------->
-        <nav class="navPrincipal">
+         <div class="containerNavPrincipal">
+        <nav class="navPrincipal menuIndex">
             <ul class="ulPrincipal"><a class="aPrincipal" href="index.html">INICIO</a></ul>
             <ul class="ulPrincipal"><a class="aPrincipal" href="secciones/nosotros.html">SOBRE NOSOTROS</a></ul>
             <ul class="ulPrincipal"><a class="aPrincipal" href="secciones/servicios.html">SERVICIOS</a></ul>
             <ul class="ulPrincipal"><a class="aPrincipal" href="secciones/contacto.html">CONTACTO</a></ul>
         </nav>
+         </div>
     </header>
 
-    <div class="prueba">
-    </div>
-
     <!--  Inicio main Index   -->
-    <main>
+    <main class="mainIndex">
         <div class="indexMain">
             <div class="contenedorIndexTitulo">
                 <h2>Limpieza del hogar
@@ -62,11 +61,17 @@
                 </div>
             </div>
             <div class="imgIndexPrincipal">
-                <img src="./imagenes/imagen-principal.png" alt="">
+                <img src="./imagenes/img-index-principal.png" alt="">
             </div>
         </div>
     </main>
     <!--  Fin main Index   -->
+
+    <section class="seccionContainerWpp">
+        <div class="boton-whatsapp">
+        <a href=""><img src="imagenes/logos_whatsapp.png" alt=""></a>
+        </div>
+    </section>
 
     <!--  Inicio primera sección  -->
     <section>
@@ -162,27 +167,27 @@
     <footer>
         <div class="divFooter1">
             <h2>Azzheztia</h2>
-            <p>México...</p>
+            <p>CDMX, México</p>
             <nav>
                 <ul>
-                    <li> <a href="">Inicio</a></li>
-                    <li> <a href="">Sobre nosotros</a></li>
-                    <li> <a href="">Servicios</a></li>
-                    <li> <a href="">Contacto</a></li>
+                    <li> <a href="index.html">Inicio</a></li>
+                    <li> <a href="secciones/nosotros.html">Sobre nosotros</a></li>
+                    <li> <a href="secciones/servicios.html">Servicios</a></li>
+                    <li> <a href="secciones/contacto.html">Contacto</a></li>
                 </ul>
             </nav>
         </div>
         <div class="divFooter2">
             <h4>Descargá nuestra app</h4>
             <div class="logos">
-                <a href=""><img class="logoAppStore" src="./imagenes/app-store.png" alt=""></a>
+                <a href="https://apps.apple.com/mx/app/azzheztia/id1468985568"><img class="logoAppStore" src="./imagenes/app-store.png" alt=""></a>
                 <a href=""><img src="./imagenes/google-play.png" alt=""></a>
             </div>
         </div>
         <div class="divFooter3">
             <h4>Seguinos</h4>
             <ul class="redes">
-                <li><a href=""><img src="./imagenes/instagram.png" alt=""></a></li>
+                <li><a href="https://www.instagram.com/azzheztia/?hl=es"><img src="./imagenes/instagram.png" alt=""></a></li>
                 <li><a href=""><img class="logoFacebook" src="./imagenes/facebook.png" alt=""></a></li>
             </ul>
         </div>

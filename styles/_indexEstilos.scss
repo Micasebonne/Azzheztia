@@ -1,43 +1,49 @@
 //Estilos index Main
-.indexMain {
-    display: flex; 
-        
-        h2{
-            font-size: 50px;
-            font-weight: 500px;
-            text-align: center;
-            margin-bottom: 40px;
-            @media (min-width: 280px) and (max-width: 480px) {
-                font-size: 24px;
-                margin-top: 40px;
-                margin-bottom: 10px;
-            }      
-        }
-            p {
-                font-size: 20px;
-                font-weight: 400px;
-                text-align: center;
-                margin-bottom: 20px;
-                color: #082830;
-                @media (min-width: 280px) and (max-width: 480px) {
-                    font-size: 16px;
-                    margin-top: -2px;  
-                }
+.mainIndex {
+    position: relative;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+        .indexMain {
+            display: grid;
+            grid-template-columns: 2fr 50%;
+            @media (min-width: 280px) and (max-width: 640px) {
+                display: flex;
             }
-    
-                img {
-                    display: flex;
-                    width: 720px;
-                    height: 810px;
-                    @media (min-width: 280px) and (max-width: 480px) {
-                        display: none;  
+                h2{
+                    font-size: 50px;
+                    font-weight: 500px;
+                    text-align: center;
+                    margin-bottom: 40px;
+                    @media (min-width: 280px) and (max-width: 640px) {
+                        font-size: 24px;
+                        margin-top: 40px;
+                        margin-bottom: 10px;
+                    }      
+                }
+                p {
+                    font-size: 20px;
+                    font-weight: 400px;
+                    text-align: center;
+                    margin-bottom: 20px;
+                    color: #082830;
+                    @media (min-width: 280px) and (max-width: 640px) {
+                        font-size: 16px;
+                        margin-top: -2px;  
                     }
-                }  
+                }   
+    
+                    img {
+                        display: flex;
+                        @media (min-width: 280px) and (max-width: 640px) {
+                            display: none;  
+                        }
+                    }  
 }
-
+}
 .imgIndexPrincipal {
     z-index: 1;
-    margin-top: -130px;
+    margin-top: -180px;
     margin-right: 0px;
 }
 
@@ -46,10 +52,8 @@
 }
 
 .contenedorIndexTitulo {
-    display: grid;
-    align-content: center;
-    margin-top: -250px;
-    @media (min-width: 280px) and (max-width: 480px) {
+    margin-top: 20%;
+    @media (min-width: 280px) and (max-width: 640px) {
         margin-top: 0;
     }  
 }
@@ -67,7 +71,7 @@
             border-radius: 25px;
             width: 180px;
             height: 52px;
-            @media (min-width: 280px) and (max-width: 480px) {
+            @media (min-width: 280px) and (max-width: 640px) {
                 width: 160px;
                 height: 42px; 
             } 
@@ -79,7 +83,7 @@
             border-radius: 25px;
             width: 180px;  
             height: 52px;
-            @media (min-width: 280px) and (max-width: 480px) {
+            @media (min-width: 280px) and (max-width: 640px) {
                 width: 160px;
                 height: 42px;              
             }
@@ -91,21 +95,56 @@
                 text-decoration: none;
                 color: #ffffff;
                 text-align: center;
-                @media (min-width: 280px) and (max-width: 480px) {
+                @media (min-width: 280px) and (max-width: 640px) {
                     font-size: 14px;
                 }  
             }
 }
 
+//Estilo boton whatsapp
+.seccionContainerWpp { 
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-left: 80%;
+    margin-top: -10%;
+    @media (min-width: 280px) and (max-width: 640px) {
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+        .boton-whatsapp {
+            display: flex;
+            position: absolute;
+            background-color: #fff;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            z-index: 2;
+            @media (min-width: 280px) and (max-width: 640px) {
+                margin-top: 30%;
+                margin-right: 40%;    
+            }
+
+                img {
+                    margin: 35%;
+                }
+        }
+}
 // Estilos Index sección cards
 .contenedorIndexPrimeraSeccion {
-    margin-top: 200px;
+    margin-top: 20%;
     background-color: #F1F3F8;
-    width: 1348px;
+    width: 1500px;
     height: 1800px;
     border-radius: 50%/100px 100px 0 0;
     position: relative;
-    @media (min-width: 280px) and (max-width: 480px) {
+    @media (min-width: 280px) and (max-width: 640px) {
         background-color: $colorBlanco; 
         width: 90%;
         margin: 0 auto;
@@ -124,7 +163,7 @@
     border-radius: 25px;
     position: absolute;
     box-shadow: 8px 8px 8px 8px #d3d4d4;
-    @media (min-width: 280px) and (max-width: 480px) {
+    @media (min-width: 280px) and (max-width: 640px) {
         width: 327px;
         height: 333px;
         position: relative;
@@ -134,7 +173,7 @@
             position: absolute;
             margin-top: -40px;
             margin-left: 30px;
-            @media (min-width: 280px) and (max-width: 480px) {
+            @media (min-width: 280px) and (max-width: 640px) {
                 position: relative;
                 margin-top: 0px;
                 margin-left: 0px;  
@@ -145,7 +184,7 @@
                 height: 450px;
                 border-radius: 25px;
                 margin-bottom: -20px;
-                @media (min-width: 280px) and (max-width: 480px) {
+                @media (min-width: 280px) and (max-width: 640px) {
                      width: 327px;
                      height: 194px;  
                 }
@@ -157,7 +196,7 @@
     justify-content: end;
     margin-left: 40px;
     margin-top: 200px;
-    @media (min-width: 280px) and (max-width: 480px) {
+    @media (min-width: 280px) and (max-width: 640px) {
         justify-content: center;
         margin: 0 auto;
         margin-bottom: 70px;  
@@ -168,7 +207,7 @@
     justify-content: start;
     margin-left: 350px;
     margin-top: 800px;
-    @media (min-width: 280px) and (max-width: 480px) {
+    @media (min-width: 280px) and (max-width: 640px) {
         justify-content: center;
         margin: 0 auto;
         margin-bottom: 70px;
@@ -176,7 +215,7 @@
     
         img {
             margin-left: 480px;
-            @media (min-width: 280px) and (max-width: 480px) {
+            @media (min-width: 280px) and (max-width: 640px) {
                 margin-left: 0px;  
            }    
         }
@@ -186,7 +225,7 @@
     justify-content: end;
     margin-left: 40px;
     margin-top: 1350px;
-    @media (min-width: 280px) and (max-width: 480px) {
+    @media (min-width: 280px) and (max-width: 640px) {
         justify-content: center;
         margin: 0 auto;
         margin-bottom: 70px;  
@@ -195,13 +234,13 @@
 
 .textoIndexCard {
         h3 {
-        @media (min-width: 280px) and (max-width: 480px) {
+        @media (min-width: 280px) and (max-width: 640px) {
         font-size: 18px;
         }        
         }
         
         p {
-        @media (min-width: 280px) and (max-width: 480px) {
+        @media (min-width: 280px) and (max-width: 640px) {
         font-size: 14px;
         }
         }
@@ -211,7 +250,7 @@
     width: 80%;
     margin: 0 auto;
     text-align: start;
-    @media (min-width: 280px) and (max-width: 480px) {
+    @media (min-width: 280px) and (max-width: 640px) {
         width: 95%;
         margin: 15px;  
    }
@@ -221,7 +260,7 @@
     width: 60%;
     margin: 0 auto;
     margin-left: 50px;
-    @media (min-width: 280px) and (max-width: 480px) {
+    @media (min-width: 280px) and (max-width: 640px) {
         width: 95%;
         margin: 15px;  
    }
@@ -231,7 +270,7 @@
     width: 90%;
     margin: 0 auto;
     margin-right: 50px;
-    @media (min-width: 280px) and (max-width: 480px) {
+    @media (min-width: 280px) and (max-width: 640px) {
         width: 95%;
         margin: 20px;  
    }
@@ -239,13 +278,14 @@
 
 //Estilos index segunda sección
 .segundaSeccionIndex {
-    margin-top: 200px;
+    margin-top: 20%;
+    margin-bottom: 40%;
         h4 {
             color: #000;
             text-align: center;
             font-size: 48px;
             margin-bottom: 200px;
-        @media (min-width: 280px) and (max-width: 480px) {
+        @media (min-width: 280px) and (max-width: 640px) {
             font-size: 20px;
             margin-top: 300px;
             margin-bottom: 20px;  
@@ -263,7 +303,7 @@
     height: 337px;
     width: 90%;
     margin: 0 auto;
-    @media (min-width: 280px) and (max-width: 480px) {
+    @media (min-width: 280px) and (max-width: 640px) {
         width: 206px;
         height: 836px;
         margin-top: -900px;  
@@ -275,7 +315,7 @@
     position: absolute;
     width: 182px;
     height: 337px;
-    @media (min-width: 280px) and (max-width: 480px) {
+    @media (min-width: 280px) and (max-width: 640px) {
         width: 206px;
         height: 153px;
         flex-direction: column;
@@ -289,7 +329,7 @@
             border-radius: 50%;
             margin-left: 30px;
             margin-top: 20px;
-            @media (min-width: 280px) and (max-width: 480px) {
+            @media (min-width: 280px) and (max-width: 640px) {
                 width: 45px;
                 height: 45px;
                 margin-left: 80px;  
@@ -298,7 +338,7 @@
                 img {
                     position: absolute;
                     margin: 25px;
-                    @media (min-width: 280px) and (max-width: 480px) {
+                    @media (min-width: 280px) and (max-width: 640px) {
                         width: 24px;
                         height: 24px;
                         margin: 10px;
@@ -312,7 +352,7 @@
                     position: absolute;
                     margin-top: 50px;
                     margin-left: 115px;
-                    @media (min-width: 280px) and (max-width: 480px) {
+                    @media (min-width: 280px) and (max-width: 640px) {
                         border: none;
                         border-left: 1px solid hsla(200, 10%, 50%, 100);
                         height: 5vh;
@@ -326,7 +366,7 @@
 
         .textoCard {
             margin-top: 150px;
-            @media (min-width: 280px) and (max-width: 480px) {
+            @media (min-width: 280px) and (max-width: 640px) {
                 margin-top: 70px;  
            } 
                         
@@ -334,7 +374,7 @@
                     font-size: 36px;
                     color: #000;
                     text-align: center;
-                    @media (min-width: 280px) and (max-width: 480px) {
+                    @media (min-width: 280px) and (max-width: 640px) {
                         font-size: 18px;
                         margin-top: 10px;  
                    }
@@ -344,7 +384,7 @@
                     font-size: 18px;
                     color: #1E1B1B;
                     text-align: center;
-                    @media (min-width: 280px) and (max-width: 480px) {
+                    @media (min-width: 280px) and (max-width: 640px) {
                         font-size: 14px; 
                         margin-top: 15px; 
                    }
@@ -352,21 +392,21 @@
         }
 
 .miniCardBusca {
-    @media (min-width: 280px) and (max-width: 480px) {
+    @media (min-width: 280px) and (max-width: 640px) {
         margin-bottom: -20px;
 }
 }
 
 .miniCardAgenda {
     margin-left: 350px;
-    @media (min-width: 280px) and (max-width: 480px) {
+    @media (min-width: 280px) and (max-width: 640px) {
         margin-left: 0px;
         margin-top: 30%;  
    }
     
         .circuloCard {
                 hr {
-                @media (min-width: 280px) and (max-width: 480px) {
+                @media (min-width: 280px) and (max-width: 640px) {
                         margin-top: 170px;  
                    }
                 }
@@ -376,19 +416,19 @@
 
 .miniCardPaga {
     margin-left: 700px;
-    @media (min-width: 280px) and (max-width: 480px) {
+    @media (min-width: 280px) and (max-width: 640px) {
         margin-left: 0px;  
         margin-top: 30%;
    }    
         .circuloCard {
             img {
-                margin: 32px;
-                @media (min-width: 280px) and (max-width: 480px) {
+                margin: 25px;
+                @media (min-width: 280px) and (max-width: 640px) {
                     margin: 10px;  
                }    
             }
             hr {
-                @media (min-width: 280px) and (max-width: 480px) {
+                @media (min-width: 280px) and (max-width: 640px) {
                         margin-top: 170px;  
                    }
                 }    
@@ -397,14 +437,14 @@
 
 .miniCardDescansa {
     margin-left: 1050px;
-    @media (min-width: 280px) and (max-width: 480px) {
+    @media (min-width: 280px) and (max-width: 640px) {
         margin-left: 0px;
         margin-top: 30%;  
    }
         .circuloCard {
             img {
                 margin: 35px;
-                @media (min-width: 280px) and (max-width: 480px) {
+                @media (min-width: 280px) and (max-width: 640px) {
                     margin: 10px;  
                }
             }
