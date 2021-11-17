@@ -13,10 +13,11 @@ header {
     flex-direction: row;
     margin-left: 5%; }
     header .logo h1 {
-      font-family: "Poppins", sans-serif;
-      font-weight: bolder;
-      color: #00A3CC;
       margin-left: 10%; }
+      header .logo h1 a {
+        font-weight: bolder;
+        color: #00A3CC;
+        text-decoration: none; }
   header .containerNavPrincipal {
     display: flex;
     margin: 0 25%; }
@@ -665,6 +666,10 @@ footer {
     border-radius: 25px;
     width: 180px;
     height: 52px; }
+    .botonesIndex .boton1:hover {
+      background-color: #ffb76b;
+      border-color: #ffb76b;
+      transform: scale(2, 2); }
     @media (min-width: 280px) and (max-width: 640px) {
       .botonesIndex .boton1 {
         width: 160px;
@@ -675,6 +680,10 @@ footer {
     border-radius: 25px;
     width: 180px;
     height: 52px; }
+    .botonesIndex .boton2:hover {
+      background-color: #FF8500;
+      border-color: #FF8500;
+      transform: scale(2, 2); }
     @media (min-width: 280px) and (max-width: 640px) {
       .botonesIndex .boton2 {
         width: 160px;
@@ -853,8 +862,9 @@ footer {
         font-size: 20px;
         margin-top: 300px;
         margin-bottom: 20px; } }
-  .segundaSeccionIndex span {
-    color: #FF8500; }
+
+span {
+  color: #FF8500; }
 
 .contenedorFuncionamiento {
   position: relative;
@@ -1008,6 +1018,9 @@ h2 {
         width: 30px;
         height: 30px; }
 
+.email {
+  text-decoration: underline; }
+
 .formularioContacto {
   background-color: #F1F3F8;
   border-radius: 50%/100px 100px; }
@@ -1015,6 +1028,7 @@ h2 {
     padding-top: 3%;
     padding-bottom: 3%; }
   .formularioContacto iframe {
+    margin: 0 auto;
     margin-left: 27%;
     padding-bottom: 5%; }
   .formularioContacto .botonResponsive {
@@ -1050,7 +1064,7 @@ h2 {
       background-color: #00A3CC;
       width: 280px;
       height: 40px;
-      margin-left: 10%;
+      margin: 0 auto;
       border: none;
       border-end-end-radius: 40px;
       border-end-start-radius: 40px;

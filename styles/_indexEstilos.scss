@@ -71,10 +71,16 @@
             border-radius: 25px;
             width: 180px;
             height: 52px;
+            &:hover{
+                background-color: #ffb76b;
+                border-color: #ffb76b;
+                transform: scale(2,2);
+            }
             @media (min-width: 280px) and (max-width: 640px) {
                 width: 160px;
-                height: 42px; 
-            } 
+                height: 42px;    
+            }
+         
         }
 
         .boton2 {
@@ -83,6 +89,11 @@
             border-radius: 25px;
             width: 180px;  
             height: 52px;
+            &:hover{
+                background-color: $colorSecundario;
+                border-color: $colorSecundario;
+                transform: scale(2,2);
+            }
             @media (min-width: 280px) and (max-width: 640px) {
                 width: 160px;
                 height: 42px;              
@@ -290,10 +301,11 @@
             margin-top: 300px;
             margin-bottom: 20px;  
            }    
-        }
-            span {
-                color: $colorSecundario
-            }
+        }    
+}
+
+span {
+    color: $colorSecundario
 }
 
 .contenedorFuncionamiento {
