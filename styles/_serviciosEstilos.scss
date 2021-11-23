@@ -342,7 +342,7 @@ h6{
               margin-right: 0%;
 
               .cardServicios{
-                  margin-bottom: 3%;
+                  margin-bottom: 10%;
                   width: 95%;
                   
                   .infoCard{
@@ -368,6 +368,8 @@ h6{
 
                       .footerCard{
                         width: 100%;
+                        display: flex;
+                        justify-content: space-around;
                             .precioServicios{
                                 font-size: 26px;
                                 padding-top: 4%;
@@ -398,6 +400,8 @@ h6{
 
                       .footerCard{
                         width: 100%;
+                        display: flex;
+                        justify-content: space-around;
                             .precioServicios{
                                 font-size: 26px;
                                 padding-top: 4%;

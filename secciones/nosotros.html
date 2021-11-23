@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Azzheztia</title>
     <link rel="shortcut icon" href="../imagenes/favicon.png">
 </head>
@@ -45,7 +46,7 @@
          </div>
     </header>
 
-    <main>
+    <main class="historiaNosotros">
         <h2>Azzheztia nació de un sueño. El sueño de Inés.</h2>
             <p>Inés era una mujer trabajadora de alrededor de 60 años que se encargaba de la limpieza de un espacio público. 
                 En ese mismo lugar, trabajaba nuestro fundador Alejandro, quien un día la vio cómo intentaba sin mucho éxito limpiar los azulejos del techo
@@ -64,7 +65,7 @@
         </div>
         <div class="containerNosotros">
             <div class="containerTextos">
-                <div class="textoMision">
+                <div class="textoMision" data-aos="fade-up" data-aos-delay="400" data-aos-easing="ease-in-sine">
                     <h3>Misión</h3>
                     <p>Otorgar bienestar a los hogares de nuestros clientes, <br> ofreciendoles servicios de limpieza
                         personalizados <br> basados en nuestros valores de confianza, eficiencia <br> y ahorro.
@@ -72,7 +73,7 @@
                         Asegurar condiciones dignas a nuestros empleados, <br> quienes son nuestros mayores aliados.
                     </p>
                 </div>
-                <div class="textoVision">
+                <div class="textoVision" data-aos="fade-down" data-aos-delay="400" data-aos-easing="ease-in-sine">
                     <h3>Visión</h3>
                     <p>Mejorar la calidad de vida de nuestros clientes <br> liberandoles de tareas pendientes del hogar,
                         <br> otorgando servicios de limpieza de calidad óptima, <br> segura y con precios justos.
@@ -86,7 +87,7 @@
 
     <section class="seccionHistorias">
         <h2>Historias de clientes</h2>
-        <div class="cardOpiniones cardOpiniones1">
+        <div class="cardOpiniones cardOpiniones1" data-aos="fade-left" data-aos-delay="400" data-aos-easing="ease-in-sine">
             <div class="cardEstrellas">
                 <img src="../imagenes/estrella.png" alt="">
                 <img src="../imagenes/estrella.png" alt="">
@@ -97,7 +98,7 @@
             <h3>Mary</h3>
             <p>Excelente servicio. Muy puntuales y me ayudaron a limpiar algunas áreas que no sabía como se hacían. Personal muy amable y dedicado, con gran detalle en la limpieza.<img src="../imagenes/comillas.png" alt=""></p>
         </div>
-        <div class="cardOpiniones cardOpiniones2">
+        <div class="cardOpiniones cardOpiniones2" data-aos="fade-right" data-aos-delay="400" data-aos-easing="ease-in-sine">
             <div class="cardEstrellas">
                 <img src="../imagenes/estrella.png" alt="">
                 <img src="../imagenes/estrella.png" alt="">
@@ -108,7 +109,7 @@
             <h3>Janet</h3>
             <p>¡Servicio de primera! Son puntuales y cuentan con excelente servicio: muy fácil de pedir y de pagar, dejan súper limpio. Los recomiendo ampliamente.<img src="../imagenes/comillas.png" alt=""></p>
         </div>
-        <div class="cardOpiniones cardOpiniones3">
+        <div class="cardOpiniones cardOpiniones3" data-aos="fade-left" data-aos-delay="400" data-aos-easing="ease-in-sine">
             <div class="cardEstrellas">
                 <img src="../imagenes/estrella.png" alt="">
                 <img src="../imagenes/estrella.png" alt="">
@@ -120,7 +121,7 @@
             <p>El servicio de limpieza es muy completo, quedé muy satisfecha con el servicio que ofrecen,
                 100% recomendado!!<img src="../imagenes/comillas.png" alt=""></p>
         </div>
-        <div class="cardOpiniones cardOpiniones4">
+        <div class="cardOpiniones cardOpiniones4" data-aos="fade-right" data-aos-delay="400" data-aos-easing="ease-in-sine">
             <div class="cardEstrellas">
                 <img src="../imagenes/estrella.png" alt="">
                 <img src="../imagenes/estrella.png" alt="">
@@ -151,13 +152,13 @@
         <div class="divFooter2">
             <h4>Descarga nuestra app</h4>
             <a href="https://apps.apple.com/mx/app/azzheztia/id1468985568"><img class="logoAppStore" src="../imagenes/app-store.png" alt=""></a>
-            <a href=""><img src="../imagenes/google-play.png" alt=""></a>
+            <a href=""><img src="../imagenes/google-play.png" class="logoPlayStore" alt=""></a>
         </div>
         <div class="divFooter3">
             <h4>Síguenos</h4>
             <ul class="redes">
                 <li><a href="https://www.instagram.com/azzheztia/?hl=es"><img src="../imagenes/instagram.png" alt=""></a></li>
-                <li><a href=""><img src="../imagenes/facebook.png" class="logoFacebook" alt=""></a></li>
+                <li><a href="https://www.facebook.com/Azzheztia-102907225553722"><img src="../imagenes/facebook.png" class="logoFacebook" alt=""></a></li>
             </ul>
         </div>
     </footer>
@@ -165,5 +166,7 @@
 
 
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script> AOS.init(); </script>
 
 </html>

@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7ad48722f8.js" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
     <title>Azzheztia</title>
     <link rel="shortcut icon" href="./imagenes/favicon.png">
@@ -50,18 +50,18 @@
     <!--  Inicio main Index   -->
     <main class="mainIndex">
         <div class="indexMain">
-            <div class="contenedorIndexTitulo">
+            <div class="contenedorIndexTitulo" data-aos="fade-left" data-aos-delay="400" data-aos-easing="ease-in-sine">
                 <h2>Limpieza del hogar
                     al alcance de tu mano.</h2>
                 <p>Más que una plataforma de servicios de limpieza, <br>
                     otorgamos bienestar a todo tu hogar. <br>
                     Con Azzheztia, el descanso está a sólo un click.</p>
-                <div class="botonesIndex">
+                <div class="botonesIndex" data-aos="fade-up" data-aos-delay="900" data-aos-easing="ease-in-sine">
                     <button class="boton1"> <a href="./secciones/contacto.html"> Únete a nosotros </a></button>
                     <button class="boton2"> <a href="./secciones/servicios.html"> Servicios</a></button>
                 </div>
             </div>
-            <div class="imgIndexPrincipal">
+            <div class="imgIndexPrincipal" data-aos="fade-right" data-aos-delay="700" data-aos-easing="ease-in-sine">
                 <img src="./imagenes/img-index-principal.png" alt="">
             </div>
         </div>
@@ -69,15 +69,15 @@
     <!--  Fin main Index   -->
 
     <section class="seccionContainerWpp">
-        <div class="boton-whatsapp">
-        <a href=""><img src="imagenes/logos_whatsapp.png" alt=""></a>
+        <div class="boton-whatsapp" data-aos="fade-down" data-aos-delay="900" data-aos-easing="ease-in-sine">
+        <a href="https://wa.me/525573798957?text=Hola,%20quisiera%20pedir%20informacion%20sobre%20los%20servicios%20disponibles"><img src="imagenes/logos_whatsapp.png" alt=""></a>
         </div>
     </section>
 
     <!--  Inicio primera sección  -->
     <section>
         <div class="contenedorIndexPrimeraSeccion">
-            <div class="cardsIndex cardIndex1">
+            <div class="cardsIndex cardIndex1" data-aos="fade-right" data-aos-delay="300" data-aos-easing="ease-in-sine">
                 <div class="imgIndexCards">
                     <img src="./imagenes/img-card1-index.jpg" alt="">    
                 </div>
@@ -89,7 +89,7 @@
                 </div>
             </div>
 
-            <div class="cardsIndex cardIndex2">
+            <div class="cardsIndex cardIndex2" data-aos="fade-left" data-aos-delay="400" data-aos-easing="ease-in-sine">
                 <div class="imgIndexCards">
                     <img src="./imagenes/img-card2-index.jpg" alt="">
                 </div>
@@ -101,7 +101,7 @@
                 </div>
             </div>
 
-            <div class="cardsIndex cardIndex3">
+            <div class="cardsIndex cardIndex3" data-aos="fade-right" data-aos-delay="500" data-aos-easing="ease-in-sine">
                 <div class="imgIndexCards">
                     <img src="./imagenes/img-card3-index.jpg" alt="">
                 </div>
@@ -118,7 +118,7 @@
 
     <!--  Inicio segunda sección  -->
     <section class="segundaSeccionIndex">
-        <div class="contenedorFuncionamiento">
+        <div class="contenedorFuncionamiento" data-aos="fade-up" data-aos-delay="500" data-aos-easing="ease-in-sine">
             <h4><span>¿</span>Cómo funciona<span>?</span></h4>
             <div class="miniCard miniCardBusca">
                 <div class="circuloCard">
@@ -182,23 +182,19 @@
             <h4>Descarga nuestra app</h4>
             <div class="logos">
                 <a href="https://apps.apple.com/mx/app/azzheztia/id1468985568"><img class="logoAppStore" src="./imagenes/app-store.png" alt=""></a>
-                <a href=""><img src="./imagenes/google-play.png" alt=""></a>
+                <a href=""><img src="./imagenes/google-play.png" class="logoPlayStore" alt=""></a>
             </div>
         </div>
         <div class="divFooter3">
             <h4>Síguenos</h4>
             <ul class="redes">
                 <li><a href="https://www.instagram.com/azzheztia/?hl=es"><img src="./imagenes/instagram.png" alt=""></a></li>
-                <li><a href=""><img class="logoFacebook" src="./imagenes/facebook.png" alt=""></a></li>
+                <li><a href="https://www.facebook.com/Azzheztia-102907225553722"><img class="logoFacebook" src="./imagenes/facebook.png" alt=""></a></li>
             </ul>
         </div>
     </footer>
     <!--  Fin footer  -->
 </body>
-<script>
-    ScrollReveal().reveal('.cardIndex1', { delay: 500 });
-    ScrollReveal().reveal('.cardIndex2', { delay: 600 });
-    ScrollReveal().reveal('.cardIndex3', { delay: 700 });
-    ScrollReveal().reveal('.contenedorFuncionamiento', { delay: 400 });
-</script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init(); </script>
 </html>

@@ -154,7 +154,6 @@
     width: 1500px;
     height: 1800px;
     border-radius: 50%/100px 100px 0 0;
-    position: relative;
     @media (min-width: 280px) and (max-width: 640px) {
         background-color: $colorBlanco; 
         width: 90%;
@@ -295,7 +294,7 @@
             color: #000;
             text-align: center;
             font-size: 48px;
-            margin-bottom: 200px;
+            margin-bottom: 15%;
         @media (min-width: 280px) and (max-width: 640px) {
             font-size: 20px;
             margin-top: 300px;
@@ -309,15 +308,13 @@ span {
 }
 
 .contenedorFuncionamiento {
-    position: relative;
-    margin-top: 150%;
-    width: 1123px;
-    height: 337px;
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 20%;
     @media (min-width: 280px) and (max-width: 640px) {
         width: 206px;
         height: 836px;
+        margin: 0 auto;
         margin-top: -900px;  
    }
 }
