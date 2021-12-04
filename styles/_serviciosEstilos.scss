@@ -1,4 +1,6 @@
 h2{
+    width: 90%;
+    margin: 0 auto;
     font-family: $fuente;
     color: $colorTexto;
     font-size: 48px;
@@ -79,8 +81,9 @@ h6{
                         color: $colorSecundario;
                         font-size: 30px;
                         font-weight: 400;
-                        text-align: center;
                         padding-top: 2%;
+                        margin-left: 13%;
+                        margin-top: 5%;
                     }
                 }
             }
@@ -135,8 +138,9 @@ h6{
                         color: $colorSecundario;
                         font-size: 30px;
                         font-weight: 400;
-                        text-align: center;
                         padding-top: 2%;
+                        margin-left: 13%;
+                        margin-top: 5%;
                     }
                 }
             }
@@ -190,6 +194,10 @@ h6{
             margin-left: 60%;
             animation-duration: 3s;
             animation-name: animarDerecha;
+            @media (min-width: 900px) and (max-width: 1300px) {
+                margin-left: 70%;  
+               }    
+            
         }
 
         .barrer{
@@ -201,6 +209,11 @@ h6{
             margin-left: 60%;
             animation-duration: 3s;
             animation-name: animarDerecha;
+            @media (min-width: 900px) and (max-width: 1300px) {
+                margin-left: 70%;
+                margin-top: 150%;  
+               }    
+            
         }
 
         .divServicios{
@@ -306,17 +319,20 @@ h6{
   
     to {
         margin-left: 60%;
+        @media (min-width: 900px) and (max-width: 1300px) {
+        margin-left: 70%;
+        }
     }
   }
 
   @keyframes animarIzquierda {
     from {
-        margin-left: 60%;
+        margin-left: 60%;    
     }
   
     to {
         margin-left: 0%;
-    }
+    }    
   }
 
   @media (max-width: 790px){

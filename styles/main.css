@@ -129,6 +129,8 @@ body {
           margin-left: -10%; } }
 
 h2 {
+  width: 90%;
+  margin: 0 auto;
   font-family: "Poppins", sans-serif;
   color: #373F41;
   font-size: 48px;
@@ -196,8 +198,9 @@ h6 {
             color: #FF8500;
             font-size: 30px;
             font-weight: 400;
-            text-align: center;
-            padding-top: 2%; }
+            padding-top: 2%;
+            margin-left: 13%;
+            margin-top: 5%; }
       .contenedor .infoServicios .cardServicios .infoCard2 {
         background-color: #00A3CC;
         width: 400px;
@@ -240,8 +243,9 @@ h6 {
             color: #FF8500;
             font-size: 30px;
             font-weight: 400;
-            text-align: center;
-            padding-top: 2%; }
+            padding-top: 2%;
+            margin-left: 13%;
+            margin-top: 5%; }
   .contenedor .servicioSection .servicio1 {
     background-color: white;
     width: 900px;
@@ -278,6 +282,9 @@ h6 {
     margin-left: 60%;
     animation-duration: 3s;
     animation-name: animarDerecha; }
+    @media (min-width: 900px) and (max-width: 1300px) {
+      .contenedor .servicioSection .aspiradora {
+        margin-left: 70%; } }
   .contenedor .servicioSection .barrer {
     position: absolute;
     left: 0px;
@@ -287,6 +294,10 @@ h6 {
     margin-left: 60%;
     animation-duration: 3s;
     animation-name: animarDerecha; }
+    @media (min-width: 900px) and (max-width: 1300px) {
+      .contenedor .servicioSection .barrer {
+        margin-left: 70%;
+        margin-top: 150%; } }
   .contenedor .servicioSection .divServicios {
     display: flex;
     flex-direction: row;
@@ -359,7 +370,9 @@ h6 {
   from {
     margin-left: 0%; }
   to {
-    margin-left: 60%; } }
+    margin-left: 60%;
+    @media (min-width: 900px) and (max-width: 1300px) {
+      margin-left: 70%; } } }
 
 @keyframes animarIzquierda {
   from {
@@ -677,7 +690,7 @@ footer {
     .botonesIndex .boton1:hover {
       background-color: #ffb76b;
       border-color: #ffb76b;
-      transform: scale(2, 2); }
+      transform: scale(1.5, 1.5); }
     @media (min-width: 280px) and (max-width: 640px) {
       .botonesIndex .boton1 {
         width: 160px;
@@ -691,7 +704,7 @@ footer {
     .botonesIndex .boton2:hover {
       background-color: #FF8500;
       border-color: #FF8500;
-      transform: scale(2, 2); }
+      transform: scale(1.5, 1.5); }
     @media (min-width: 280px) and (max-width: 640px) {
       .botonesIndex .boton2 {
         width: 160px;

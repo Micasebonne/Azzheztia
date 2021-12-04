@@ -74,7 +74,7 @@
             &:hover{
                 background-color: #ffb76b;
                 border-color: #ffb76b;
-                transform: scale(2,2);
+                transform: scale(1.5,1.5);
             }
             @media (min-width: 280px) and (max-width: 640px) {
                 width: 160px;
@@ -92,7 +92,7 @@
             &:hover{
                 background-color: $colorSecundario;
                 border-color: $colorSecundario;
-                transform: scale(2,2);
+                transform: scale(1.5,1.5);
             }
             @media (min-width: 280px) and (max-width: 640px) {
                 width: 160px;
